@@ -2,6 +2,8 @@
 
 Here I will document the creation of Why Choose Popcorn website.
 
+View site [here](https://bobwritescode.github.io/ci-Project1)
+
 ## Wireframe
 
 ![Wireframe](assets/docs/wireframe.png "Wireframe of site")
