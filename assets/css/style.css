@@ -24,6 +24,11 @@ body {
     background-color: #fafafa;
 }
 
+.dark-bg-text {
+    color: #fafafa;
+    text-decoration: none;
+}
+
 .menus {
     color: #fafafa;
     text-align: center;
@@ -145,4 +150,12 @@ header p {
 .why-right > img {
     float: right;
     width: 33.33333%;
+}
+
+footer {
+    color: #fafafa;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    min-height: 50px;
 }
