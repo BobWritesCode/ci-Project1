@@ -16,6 +16,14 @@ body {
     display: none;
 }
 
+.page-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 100%;
+    background-color: #fafafa;
+}
+
 .menus {
     color: #fafafa;
     text-align: center;
