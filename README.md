@@ -8,9 +8,13 @@ Here I will document the creation of Why Choose Popcorn website.
 
 ## Bugs
 
-![White line between blocks](assets/docs/line-bug.png "Title")
+![White line between blocks](assets/docs/line-bug.png)
 **Bug:** A white line appeared between the hero image and the block for the header.\
-**Solution:** Incase the header and hero image in a div and add *style="font-size: 0;"* as an attribute to teh div.
+**Solution:** Incase the header and hero image in a div and add *style="font-size: 0;"* as an attribute to the div.
+
+![White line between blocks](assets/docs/collapsible-menu.png)
+**Bug:** Other elements apeparing on top of collasible menu.\
+**Solution:** Add *z-index:99;* to .menus class to make sure menus are always on top.
 
 ---
 

@@ -30,6 +30,7 @@ body {
 }
 
 .menus {
+    z-index:99;
     color: #fafafa;
     text-align: center;
     overflow: hidden;
@@ -70,6 +71,53 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
+}
+
+/* Collapseable menu https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390*/
+.collapsable-menu {
+    display: none;
+}
+
+.collapsable-menu label {
+    display: block;
+    padding: 16px 0;
+}
+
+.collapsable-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.collapsable-menu li {
+    padding: 14px;
+    margin: 0 10%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.collapsible-menu a {
+    display: block;
+    text-decoration: none;
+}
+
+.collapsible-menu label {
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 0 10px 50px;
+}
+
+input#menu {
+    display: none;
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+input:checked ~ .menu-content {
+    max-height: 100%;
+    margin-bottom: 100vh;
 }
 
 /* Animation line https://www.30secondsofcode.org/css/s/hover-underline-animation */
@@ -202,6 +250,10 @@ footer {
 
     .sticky-menu {
         display: none;
+    }
+
+    .collapsable-menu {
+        display: block;
     }
 
 }
