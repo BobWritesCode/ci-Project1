@@ -121,15 +121,19 @@ input:checked ~ .menu-content {
 }
 
 /* Animation line https://www.30secondsofcode.org/css/s/hover-underline-animation */
-.animation-line-sticky, .animation-line-white-bg {
+.animation-line-sticky, .animation-line-collapsible, .animation-line-white-bg {
     position: relative;
+}
+
+.animation-line-collapsible {
+    display: block;
 }
 
 .animation-line-sticky, .animation-line-white-bg {
     display: inline-block;
 }
 
-.animation-line-sticky:after, .animation-line-white-bg:after {
+.animation-line-sticky:after, .animation-line-collapsible:after, .animation-line-white-bg:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -146,7 +150,7 @@ input:checked ~ .menu-content {
     background-color: #333;
 }
 
-.animation-line-sticky:hover:after, .animation-line-white-bg:hover:after {
+.animation-line-sticky:hover:after, .animation-line-collapsible:hover:after, .animation-line-white-bg:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
     transition: transform 0.5s ease-out;
