@@ -34,3 +34,4 @@ I have modified this code as the original has the line come from bottom left and
 - [Elsa Olofsson](https://www.pexels.com/@elsa-olofsson-3357043/)
 - [Ron Lach](https://www.pexels.com/@ron-lach/)
 - [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
+- [Monstera](https://www.pexels.com/@gabby-k/)

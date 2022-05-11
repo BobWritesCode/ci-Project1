@@ -6,6 +6,7 @@
     margin: 0;
     scroll-behavior: smooth;
     font-family: 'Signika Negative', sans-serif;
+    color: #333;
 }
 
 body {
@@ -212,6 +213,11 @@ header p {
 
 .why h2 {
     padding: 2% 0;
+    font-size: 3vw;
+}
+
+.why p {
+    font-size: 1.9vw;
 }
 
 .why-left p {
