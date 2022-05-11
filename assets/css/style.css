@@ -114,3 +114,26 @@ header p {
     text-overflow: clip;
     text-decoration: none;
 }
+
+.why {
+    background-color: #D8AD00;
+    margin: 25px 0;
+    overflow: auto;
+}
+
+.why h2, .why p{
+    text-align: center;
+}
+
+.why h2 {
+    padding: 2% 0;
+}
+
+.why-left p {
+    margin: 0 5% 0 38.33%;
+}
+
+.why-left > img {
+    float: left;
+    width: 33.33333%;
+}
