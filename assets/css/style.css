@@ -133,7 +133,16 @@ header p {
     margin: 0 5% 0 38.33%;
 }
 
+.why-right p {
+    margin: 0 38.33% 0 5% ;
+}
+
 .why-left > img {
     float: left;
+    width: 33.33333%;
+}
+
+.why-right > img {
+    float: right;
     width: 33.33333%;
 }
