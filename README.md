@@ -2,6 +2,12 @@
 
 Here I will document the creation of Why Choose Popcorn website.
 
+## Bugs
+
+![White line between blocks](assets/docs/line-bug.png "Title")
+**Bug:** A white line appeared between the hero image and the block for the header.\
+**Solution:** Incase the header and hero image in a div and add *style="font-size: 0;"* as an attribute to teh div.
+
 ---
 
 ## Credits

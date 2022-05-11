@@ -66,3 +66,29 @@ body {
     overflow: hidden;
     text-overflow: clip;
 }
+
+/* Styling header */
+header {
+    background-color: #333;
+    font-size: 16px;
+}
+
+header h1 {
+    color: #D8AD00;
+    position: relative;
+    top: -3vw;
+    text-align: center;
+    font-size: 6vw; 
+    font-family: 'Passion One', cursive, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+}
+
+header p {
+    color: #fafafa;
+    font-size: inherit;
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    top: -3vw;
+}
