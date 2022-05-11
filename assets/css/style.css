@@ -252,6 +252,11 @@ footer {
 /* Smaller than laptop screen */
 @media only screen and (max-width: 1023px) {
 
+    .page-container {
+        width: 90%;
+        max-width: 615px;
+    }
+    
     .sticky-menu {
         display: none;
     }
