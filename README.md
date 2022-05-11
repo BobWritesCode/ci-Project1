@@ -2,6 +2,10 @@
 
 Here I will document the creation of Why Choose Popcorn website.
 
+## Wireframe
+
+![Wireframe](assets/docs/wireframe.png "Wireframe of site")
+
 ## Bugs
 
 ![White line between blocks](assets/docs/line-bug.png "Title")
