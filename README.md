@@ -29,4 +29,8 @@ I have modified this code as the original has the line come from bottom left and
 
 ### Images
 
-- Hero image - [yousafbhutta on Pixabay](https://pixabay.com/users/yousafbhutta-2933897/)
+- [yousafbhutta](https://pixabay.com/users/yousafbhutta-2933897/)
+- [Los Muertos Crew](https://www.pexels.com/@cristian-rojas/)
+- [Elsa Olofsson](https://www.pexels.com/@elsa-olofsson-3357043/)
+- [Ron Lach](https://www.pexels.com/@ron-lach/)
+- [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
