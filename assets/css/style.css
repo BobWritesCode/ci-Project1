@@ -12,10 +12,6 @@ body {
     background-color: #fafafa;
 }
 
-.hide {
-    display: none;
-}
-
 .page-container {
     margin: auto;
     margin-top: 50px;
@@ -176,7 +172,7 @@ header h1 {
 header p {
     color: #fafafa;
     font-size: inherit;
-    font-size: 200%;
+    font-size: 2.5vw; 
     text-align: center;
     position: relative;
     top: -3vw;
@@ -257,6 +253,18 @@ footer {
         max-width: 615px;
     }
 
+    header h1 {
+        font-size: 61.44px;
+        position: relative;
+        top: -31px;
+    }
+
+    header p {
+        font-size: 25.6px;
+        position: relative;
+        top: -31px;
+    }
+
     .menus {
         width: 90%;
         max-width: 615px;
@@ -280,7 +288,32 @@ footer {
     
 }
 
+/* Screen size where max-width is less then 615px */
+@media only screen and (max-width: 700px) {
+
+    header h1 {
+        font-size: 9vw; 
+        top: -4vw;
+        /* top: -20px; */
+        -webkit-text-stroke-width: 1px;
+    }
+
+    header p {
+        top: -4vw;
+        font-size: 20px; 
+    }
+
+}
+
 /* Mobile L */
 @media only screen and (max-width: 425px) {
+
+    header h1 {
+        font-size: 38.34px; 
+    }
+
+    header p {
+        font-size: 20px; 
+    }
 
 }
