@@ -11,3 +11,45 @@
 .hide {
     display: none;
 }
+
+.menus {
+    color: #fafafa;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    margin-left: 20%;
+    width: 60%;
+    min-height: 50px;
+}
+
+.menu-font a {
+    color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px solid #fafafa !important;
+}
+
+.sticky-menu {
+    height: 50px;
+}
+
+.sticky-menu ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+}
+
+.sticky-menu a {
+    float: left;
+    padding: 14px 5%;
+    width: 10vw;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
