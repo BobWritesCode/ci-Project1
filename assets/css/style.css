@@ -73,15 +73,15 @@ body {
 }
 
 /* Animation line https://www.30secondsofcode.org/css/s/hover-underline-animation */
-.animation-line-sticky {
+.animation-line-sticky, .animation-line-white-bg {
     position: relative;
 }
 
-.animation-line-sticky {
+.animation-line-sticky, .animation-line-white-bg {
     display: inline-block;
 }
 
-.animation-line-sticky:after {
+.animation-line-sticky:after, .animation-line-white-bg:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -94,7 +94,11 @@ body {
     transition: transform 0.25s ease-out;
 }
 
-.animation-line-sticky:hover:after {
+.animation-line-white-bg:after {
+    background-color: #333;
+}
+
+.animation-line-sticky:hover:after, .animation-line-white-bg:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
     transition: transform 0.5s ease-out;
