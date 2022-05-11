@@ -72,6 +72,34 @@ body {
     text-overflow: clip;
 }
 
+/* Animation line https://www.30secondsofcode.org/css/s/hover-underline-animation */
+.animation-line-sticky {
+    position: relative;
+}
+
+.animation-line-sticky {
+    display: inline-block;
+}
+
+.animation-line-sticky:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafa;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+
+.animation-line-sticky:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+}
+
 /* Styling header */
 header {
     background-color: #333;

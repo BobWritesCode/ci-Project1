@@ -18,6 +18,10 @@ Here I will document the creation of Why Choose Popcorn website.
 
 ### Code
 
+![Animated line](assets/docs/animated-line.gif)
+https://www.30secondsofcode.org/css/s/hover-underline-animation \
+I have modified this code as the original has the line come from bottom left and go of to bottom right. I preferred the line to go back to the bottom left, as this looked better when going between the different links in the nav bar.
+
 ### Images
 
 - Hero image - [yousafbhutta on Pixabay](https://pixabay.com/users/yousafbhutta-2933897/)
