@@ -8,6 +8,10 @@
     font-family: 'Signika Negative', sans-serif;
 }
 
+body {
+    background-color: #fafafa;
+}
+
 .hide {
     display: none;
 }
@@ -34,6 +38,7 @@
     border-bottom: 1px solid #fafafa !important;
 }
 
+/* Sticky Nav styling */
 .sticky-menu {
     height: 50px;
 }
