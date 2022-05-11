@@ -256,7 +256,15 @@ footer {
         width: 90%;
         max-width: 615px;
     }
-    
+
+    .menus {
+        width: 90%;
+        max-width: 615px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+
     .sticky-menu {
         display: none;
     }
