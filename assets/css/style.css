@@ -92,3 +92,25 @@ header p {
     position: relative;
     top: -3vw;
 }
+
+#home-quick-links {
+    margin-top: 20px;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;  
+}
+
+#home-quick-links li {
+    text-align: center;
+    width: 15%;
+}
+
+#home-quick-links a {
+    margin-top: 20px;
+    width: 6vw;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-decoration: none;
+}
