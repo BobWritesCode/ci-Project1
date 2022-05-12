@@ -10,11 +10,11 @@ View site [here](https://bobwritescode.github.io/ci-Project1)
 
 ## Bugs
 
-![White line between blocks](assets/docs/line-bug.png)
+![White line between blocks](assets/docs/line-bug.png)\
 **Bug:** A white line appeared between the hero image and the block for the header.\
 **Solution:** Incase the header and hero image in a div and add *style="font-size: 0;"* as an attribute to the div.
 
-![White line between blocks](assets/docs/collapsible-menu.png)
+![White line between blocks](assets/docs/collapsible-menu.png)\
 **Bug:** Other elements apeparing on top of collasible menu.\
 **Solution:** Add *z-index:99;* to .menus class to make sure menus are always on top.
 
@@ -24,13 +24,14 @@ View site [here](https://bobwritescode.github.io/ci-Project1)
 
 ### Code
 
-![Animated line](assets/docs/animated-line.gif)
-![Animated line](assets/docs/animated-line-2.gif)
+![Animated line](assets/docs/animated-line.gif) \
+![Animated line](assets/docs/animated-line-2.gif) \
 https://www.30secondsofcode.org/css/s/hover-underline-animation \
 I have modified this code as the original has the line come from bottom left and go of to bottom right. I preferred the line to go back to the bottom left, as this looked better when going between the different links in the nav bar.
 
 ### Images
 
+- [Image optimising](http://www.imageoptimizer.net/Home.aspx)
 - [yousafbhutta](https://pixabay.com/users/yousafbhutta-2933897/)
 - [Los Muertos Crew](https://www.pexels.com/@cristian-rojas/)
 - [Elsa Olofsson](https://www.pexels.com/@elsa-olofsson-3357043/)
