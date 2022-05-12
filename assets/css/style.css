@@ -194,29 +194,35 @@ input:checked ~ .menu-content {
 }
 
 /* Styling header */
-header {
+
+
+header.main {
     background-color: #333;
     font-size: 16px;
 }
 
 header h1 {
+    font-family: 'Passion One', cursive, sans-serif;
+}
+
+header.main h1  {
+    font-size: 6vw; 
     color: #D8AD00;
+    text-align: center;
     position: relative;
     top: -3vw;
-    text-align: center;
-    font-size: 6vw; 
-    font-family: 'Passion One', cursive, sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #333;
 }
 
-header p {
+
+header.main p  {
     color: #fafafa;
+    position: relative;
+    top: -3vw;
     font-size: inherit;
     font-size: 2.5vw; 
     text-align: center;
-    position: relative;
-    top: -3vw;
 }
 
 #home-quick-links {
@@ -299,13 +305,13 @@ footer {
 /* Large Screen screen */
 @media only screen and (min-width: 1642px) {
 
-    header h1 {
+    header.main h1 {
         font-size: 98.5px;
         position: relative;
         top: -49.23px;
     }
 
-    header p {
+    header.main p {
         font-size: 41px;
         position: relative;
         top: -49.23px;
@@ -328,13 +334,13 @@ footer {
         max-width: 615px;
     }
 
-    header h1 {
+    header.main h1 {
         font-size: 61.44px;
         position: relative;
         top: -31px;
     }
 
-    header p {
+    header.main p {
         font-size: 25.6px;
         position: relative;
         top: -31px;
@@ -378,14 +384,14 @@ footer {
 /* Screen size where max-width is less then 701px */
 @media only screen and (max-width: 700px) {
 
-    header h1 {
+    header.main h1 {
         font-size: 9vw; 
         top: -4vw;
         /* top: -20px; */
         -webkit-text-stroke-width: 1px;
     }
 
-    header p {
+    header.main p {
         top: -4vw;
         font-size: 20px; 
     }
@@ -412,11 +418,11 @@ footer {
 /* Mobile L */
 @media only screen and (max-width: 425px) {
 
-    header h1 {
+    header.main h1 {
         font-size: 38.34px; 
     }
 
-    header p {
+    header.main p {
         font-size: 20px; 
     }
 
