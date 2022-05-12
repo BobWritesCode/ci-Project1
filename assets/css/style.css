@@ -314,6 +314,19 @@ footer {
     min-height: 50px;
 }
 
+.instruction {
+    background-color: #D8AD00;
+    margin: 10px 0;
+}
+
+.instruction div {
+    padding: 10px 10px;
+}
+
+.instruction div p {
+    padding: 10px 10px;
+}
+
 /* Large Screen screen */
 @media only screen and (min-width: 1642px) {
 
