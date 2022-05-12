@@ -314,7 +314,7 @@ footer {
 }
 
 .ingrediants {
-    /* background-color: #00d8c6; */
+    border-left: 2px solid #00d8c6;
     margin: 10px 0;   
 }
 
@@ -324,16 +324,17 @@ footer {
 
 .ingrediants ul {
     padding: 10px 10px;
-    list-style: none;
+    list-style: inside;
 }
 
 
 .instruction {
-    background-color: #D8AD00;
     margin: 10px 0;
+    border-left: 2px solid #D8AD00;
 }
 
 .instruction div {
+
     padding: 10px 10px;
 }
 
