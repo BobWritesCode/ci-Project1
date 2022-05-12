@@ -26,6 +26,30 @@ body {
     background-color: #fafafa;
 }
 
+.button {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button a {
+    background-color: #ff8c00;
+    color: #fafafa;
+    border-radius: 5%;
+    border: 2px solid #fafafa;
+    padding: 1vw 1vw;
+    margin: 1vw 0;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.button a:hover {
+    background-color: #fafafa;
+    color: #6b5600;
+    border-color: #6b5600;
+}
+
 .dark-bg-text, [for="menu"] {
     color: #fafafa;
     text-decoration: none;
@@ -233,7 +257,7 @@ header p {
 }
 
 .why p {
-    font-size: 1.9vw;
+    font-size: 1.7vw;
 }
 
 .why-left p {
