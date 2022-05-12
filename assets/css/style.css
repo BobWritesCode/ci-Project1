@@ -234,12 +234,12 @@ header p {
 
 .why-left > img {
     float: left;
-    width: 33.33333%;
+    width: 50%;
 }
 
 .why-right > img {
     float: right;
-    width: 33.33333%;
+    width: 50%;
 }
 
 footer {
