@@ -33,7 +33,7 @@ body {
 }
 
 .button a {
-    background-color: #ff8c00;
+    background-color: #a35900;
     color: #fafafa;
     border-radius: 5%;
     border: 2px solid #fafafa;
@@ -46,8 +46,8 @@ body {
 
 .button a:hover {
     background-color: #fafafa;
-    color: #6b5600;
-    border-color: #6b5600;
+    color: #a35900;
+    border-color: #a35900;
 }
 
 .dark-bg-text, [for="menu"] {
