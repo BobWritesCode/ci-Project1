@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Passion+One&family=Signika+Negative&display=swap');
 
 /* Resetting broswer default stylesheets */
 * {
@@ -194,20 +194,32 @@ input:checked ~ .menu-content {
 }
 
 /* Styling header */
-
-
 header.main {
     background-color: #333;
     font-size: 16px;
 }
 
-header h1 {
-    font-family: 'Passion One', cursive, sans-serif;
+header.non-main h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #333;
+    text-align: center;
+    text-transform: uppercases;
+}
+
+header.non-main p {
+    font-family: 'Exo', sans-serif;
+    font-size: 2vw;
+    text-align: center;
 }
 
 header.main h1  {
-    font-size: 6vw; 
+    font-family: 'Passion One', cursive;
     color: #D8AD00;
+    font-size: 6vw; 
+    text-transform: none;
     text-align: center;
     position: relative;
     top: -3vw;
@@ -215,8 +227,8 @@ header.main h1  {
     -webkit-text-stroke-color: #333;
 }
 
-
 header.main p  {
+    font-family: 'Signika Negative', sans-serif;
     color: #fafafa;
     position: relative;
     top: -3vw;
@@ -305,6 +317,14 @@ footer {
 /* Large Screen screen */
 @media only screen and (min-width: 1642px) {
 
+    header.non-main h1 {
+        font-size: 66px;
+    }
+
+    header.non-main p {
+        font-size: 33px;
+    }
+
     header.main h1 {
         font-size: 98.5px;
         position: relative;
@@ -332,6 +352,14 @@ footer {
     .page-container {
         width: 90%;
         max-width: 615px;
+    }
+
+    header.non-main h1 {
+        font-size: 41px;
+    }
+
+    header.non-main p {
+        font-size: 21px;
     }
 
     header.main h1 {
@@ -384,10 +412,17 @@ footer {
 /* Screen size where max-width is less then 701px */
 @media only screen and (max-width: 700px) {
 
+    header.non-main h1 {
+        font-size: 6vw;
+    }
+
+    header.non-main p {
+        font-size: 3vw;
+    }
+
     header.main h1 {
         font-size: 9vw; 
         top: -4vw;
-        /* top: -20px; */
         -webkit-text-stroke-width: 1px;
     }
 
@@ -417,6 +452,14 @@ footer {
 
 /* Mobile L */
 @media only screen and (max-width: 425px) {
+
+    header.non-main h1 {
+        font-size: 25.5px;
+    }
+
+    header.non-main p {
+        font-size: 13px;
+    }
 
     header.main h1 {
         font-size: 38.34px; 
