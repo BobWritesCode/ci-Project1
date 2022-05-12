@@ -31,6 +31,7 @@ body {
     text-decoration: none;
 }
 
+/* This makes sure the Nav bars are always centered and fixed to top of screen */
 .fix-nav  {
     z-index:99;
     position: fixed;
@@ -53,7 +54,6 @@ body {
     max-width: 985px;
     min-height: 50px;
 }
-
 
 .menu-font a {
     color: #fafafa;
@@ -237,11 +237,11 @@ header p {
 }
 
 .why-left p {
-    margin: 0 5% 0 38.33%;
+    margin: 0 5% 0 55%;
 }
 
 .why-right p {
-    margin: 0 38.33% 0 5% ;
+    margin: 0 55% 0 5% ;
 }
 
 .why-left > img {
@@ -284,11 +284,6 @@ footer {
     .why p {
         font-size: 31.2px;
     }
-}
-
-/* Laptop screen */
-@media only screen and (max-width: 1024px) {
-    
 }
 
 /* Smaller than laptop screen */
