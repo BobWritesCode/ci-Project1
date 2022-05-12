@@ -270,7 +270,6 @@ header.main p  {
     flex-direction: row-reverse;
 }
 
-
 .why img {
     flex: 50%;
 }
@@ -313,6 +312,21 @@ footer {
     background-color: #333;
     min-height: 50px;
 }
+
+.ingrediants {
+    /* background-color: #00d8c6; */
+    margin: 10px 0;   
+}
+
+.ingrediants div {
+    padding: 10px 10px;
+}
+
+.ingrediants ul {
+    padding: 10px 10px;
+    list-style: none;
+}
+
 
 .instruction {
     background-color: #D8AD00;
