@@ -199,12 +199,12 @@ header p {
     margin-top: 20px;
     list-style-type: none;
     display:flex;
-    justify-content: center;  
+    justify-content: space-around; 
 }
 
 #home-quick-links li {
+    width: 100%;
     text-align: center;
-    width: 15%;
 }
 
 #home-quick-links a {
@@ -332,8 +332,12 @@ footer {
 
 }
 
-/* Tablet screen */
-@media only screen and (max-width: 768px) {
+/* Smaller then tablet screen (768px) */
+@media only screen and (max-width: 767px) {
+
+    #home-quick-links li:nth-child(2n) {
+        display: none;
+    }
     
 }
 
