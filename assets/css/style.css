@@ -327,7 +327,6 @@ footer {
     list-style: inside;
 }
 
-
 .instruction {
     margin: 10px 0;
     border-left: 2px solid #D8AD00;
@@ -345,7 +344,11 @@ input[class="cb"] {
     display: none;
 }
   
-input[class=cb]:checked~label>div>.strikethrough {
+input[class=cb]:checked~label .strikethrough {
+    text-decoration: line-through;
+}
+
+input[class=cb]:checked~label.strikethrough {
     text-decoration: line-through;
 }
 
