@@ -334,12 +334,19 @@ footer {
 }
 
 .instruction div {
-
     padding: 10px 10px;
 }
 
 .instruction div p {
     padding: 10px 10px;
+}
+
+input[class="cb"] {
+    display: none;
+}
+  
+input[class=cb]:checked~label>div>.strikethrough {
+    text-decoration: line-through;
 }
 
 /* Large Screen screen */
