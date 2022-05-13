@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Passion+One&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Passion+One&family=Signika+Negative:wght@300;400&display=swap');
 
 /* Resetting broswer default stylesheets */
 * {
@@ -307,16 +307,19 @@ header.main p  {
 
 footer {
     color: #fafafa;
+    font-weight: 300;
     text-align: center;
     overflow: hidden;
     background-color: #333;
     min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer > ul {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 10px;
+    list-style: none;
 }
 
 .tip {
