@@ -333,6 +333,10 @@ footer > ul {
     margin: 10px 0;   
 }
 
+.tip span:after {
+    content: 'clicking';
+}
+
 .ingredients {
     border-left: 2px solid #00d8c6;
     margin: 10px 0;   
@@ -454,6 +458,10 @@ input[class=cb]:checked~label.strikethrough {
 
     .why p {
         font-size: 19.456px;
+    }
+
+    .tip span:after {
+        content: 'tapping';
     }
 
 }
