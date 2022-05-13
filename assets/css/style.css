@@ -316,6 +316,11 @@ footer {
     padding-bottom: 10px;
 }
 
+footer i {
+    font-weight: 200;
+    color: #fafafa;
+}
+
 footer > ul {
     display: flex;
     justify-content: space-around;
@@ -323,7 +328,7 @@ footer > ul {
 }
 
 .tip {
-    border-left: 2px solid #12d800;
+    border: 2px solid #333;
     padding: 10px 10px;
     margin: 10px 0;   
 }
