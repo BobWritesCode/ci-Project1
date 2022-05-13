@@ -319,6 +319,12 @@ footer > ul {
     padding-bottom: 10px;
 }
 
+.tip {
+    border-left: 2px solid #12d800;
+    padding: 10px 10px;
+    margin: 10px 0;   
+}
+
 .ingredients {
     border-left: 2px solid #00d8c6;
     margin: 10px 0;   
