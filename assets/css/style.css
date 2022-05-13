@@ -319,16 +319,16 @@ footer > ul {
     padding-bottom: 10px;
 }
 
-.ingrediants {
+.ingredients {
     border-left: 2px solid #00d8c6;
     margin: 10px 0;   
 }
 
-.ingrediants div {
+.ingredients div {
     padding: 10px 10px;
 }
 
-.ingrediants ul {
+.ingredients ul {
     padding: 10px 10px;
     list-style: inside;
 }
