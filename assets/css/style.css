@@ -341,33 +341,39 @@ footer > ul {
 }
 
 .tip span:after {
-    content: 'clicking';
+    content: 'By clicking the ingredients or steps below you will mark them as done, making it easier to track your progress.';
 }
 
-.ingredients {
+#ingredients {
     border-left: 2px solid #00d8c6;
     margin: 10px 0;   
 }
 
-.ingredients div {
+#ingredients div {
+    flex-direction: column;
     padding: 10px 10px;
 }
 
-.ingredients ul {
+#ingredients ul {
     padding: 10px 10px;
     list-style: inside;
 }
 
-.instruction {
+#instructions {
+    flex-direction: column;
+}
+
+#instructions section {
     margin: 10px 0;
     border-left: 2px solid #D8AD00;
 }
 
-.instruction div {
+#instructions section div {
+    flex-direction: column;
     padding: 10px 10px;
 }
 
-.instruction div p {
+#instructions section div p {
     padding: 10px 10px;
 }
 
@@ -450,7 +456,7 @@ input[class=cb]:checked~label.strikethrough {
     }
 
     .tip span:after {
-        content: 'tapping';
+        content: ' By tapping the ingredients or steps below you will mark them as done, making it easier to track your progress.';
     }
 
 }
