@@ -17,7 +17,7 @@ body {
     color: #fafafa; 
 }
 
-div, section {
+div, section, form {
     display: flex;
 }
 
@@ -106,11 +106,11 @@ div, section {
 .collapsable-menu ul {
     list-style-type: none;
     padding: 0;
+    width: 90%;
 }
 
 .collapsable-menu li {
-    padding: 14px;
-    margin: 0 10%;
+    padding: 14px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
@@ -316,6 +316,10 @@ header.main p  {
     border-color: #a35900;
 }
 
+#contact-form form {
+    flex-direction: column;
+}
+
 footer {
     color: #fafafa;
     font-weight: 300;
@@ -397,7 +401,7 @@ input[class=cb]:checked~label.strikethrough {
 @media only screen and (min-width: 1642px) {
 
     #why-all section {
-        flex: 1 1 800px;
+        flex: 1 1 718px;
     }
 
     header.non-main h1 {
