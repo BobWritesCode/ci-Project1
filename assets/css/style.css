@@ -316,8 +316,29 @@ header.main p  {
     border-color: #a35900;
 }
 
+#form-bg {
+    background-image: url("../../form-bg.jpg");
+    background-color: #333;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #contact-form form {
     flex-direction: column;
+    color: #fafafa;
+    background-color: rgba(163,89,0, 0.2);
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: 2px solid #fafafa;
+}
+
+#contact-form label {
+    flex-direction: column;
+    color: #fafafa;
 }
 
 footer {
