@@ -17,7 +17,7 @@ body {
     color: #fafafa; 
 }
 
-div {
+div, section {
     display: flex;
 }
 
@@ -27,29 +27,6 @@ div {
     width: 90%;
     height: 100%;
     background-color: #fafafa;
-}
-
-.button {
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-.button a {
-    background-color: #a35900;
-    color: #fafafa;
-    border-radius: 5%;
-    border: 2px solid #fafafa;
-    padding: 1vw 1vw;
-    margin: 1vw 0;
-    text-align: center;
-    text-decoration: none;
-}
-
-.button a:hover {
-    background-color: #fafafa;
-    color: #a35900;
-    border-color: #a35900;
 }
 
 .dark-bg-text, [for="menu"] {
@@ -203,10 +180,10 @@ header.main {
 }
 
 .main-header-div {
+
     flex-direction: column;
     align-items: center;
 }
-
 
 header.non-main h1 {
     font-family: 'Exo', sans-serif;
@@ -268,54 +245,71 @@ header.main p  {
     text-decoration: none;
 }
 
-.why {
-    background-color: #D8AD00;
-    margin: 25px 0;
-    overflow: auto;
-    display: flex;
-}
-
-.why div {
-    flex-direction: column;
-}
-
-.why:nth-of-type(2n) {
-    flex-direction: row-reverse;
-}
-
-.why img {
-    flex: 50%;
-}
-
-.why h2, .why p{
+#why-all {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.why h2 {
+#why-all section {
+    margin: 10px 10px;
+    overflow: hidden;
+    background-color: #D8AD00;
+    min-block-size: max-content;
+    flex: 1 1 600px;
+    width: 100%;
+}
+
+#why-all section > div {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+#why-all img {
+    height: 15vw;
+    max-height: 333px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+#why-all h2 {
+    font-size: clamp(20px, 1.3vw, 35px);
     padding: 2% 0 0.5%;
-    font-size: 3vw;
 }
 
-.why p {
-    font-size: 1.7vw;
-}
-
-.why-left p {
+#why-all p {
+    font-size: clamp(16px, 1.2vw, 25px);
     margin: 0 5% 0 5%;
 }
 
-.why-right p {
-    margin: 0 5% 0 5% ;
+#why-all section:nth-of-type(2n) {
+    flex-direction: row-reverse;
 }
 
-.why-left > img {
-    float: left;
-    width: 50%;
+.button {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
-.why-right > img {
-    float: right;
-    width: 50%;
+.button a {
+    background-color: #a35900;
+    color: #fafafa;
+    border-radius: 5%;
+    border: 2px solid #fafafa;
+    padding: 5px 20px;
+    margin: 1vw 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: #fafafa;
+    color: #a35900;
+    border-color: #a35900;
 }
 
 footer {
@@ -412,13 +406,6 @@ input[class=cb]:checked~label.strikethrough {
         top: -49.23px;
     }
 
-    .why h2 {
-        font-size: 49.2px;
-    }
-
-    .why p {
-        font-size: 31.2px;
-    }
 }
 
 /* Smaller than laptop screen */
@@ -458,13 +445,13 @@ input[class=cb]:checked~label.strikethrough {
         display: block;
     }
 
-    .why h2 {
+    /* #why-all section h2 {
         font-size: 30.72px;
     }
 
-    .why p {
+    #why-all section p {
         font-size: 19.456px;
-    }
+    } */
 
     .tip span:after {
         content: 'tapping';
@@ -503,22 +490,18 @@ input[class=cb]:checked~label.strikethrough {
         font-size: 20px; 
     }
 
-    .why h2 {
+    /* #why-all section h2 {
         font-size: 4.4vw;
     }
     
-    .why p {
+    #why-all section p {
         font-size: 2.7vw;
-    }
+    } */
 
 }
 
 /* Images in home sections are 500px wide. When screen is small enough change wrap style of home sections */
 @media only screen and (max-width: 555px) {
-
-    .why {
-        flex-wrap: wrap;
-    }
 
 }
 
@@ -541,12 +524,12 @@ input[class=cb]:checked~label.strikethrough {
         font-size: 20px; 
     }
 
-    .why h2 {
+    /* #why-all section h2 {
         font-size: 18.7px;
     }
     
-    .why p {
+    #why-all section p {
         font-size: 12px;
-    }
+    } */
 
 }
