@@ -22,13 +22,9 @@ div {
 }
 
 .page-container {
-    /* display: flex; */
     flex-direction: column;
-    /* justify-content: center; */
     margin: 0  auto;
-    margin-top: 49px;
     width: 90%;
-    /* max-width: 985px; */
     height: 100%;
     background-color: #fafafa;
 }
@@ -48,7 +44,6 @@ div {
     margin: 1vw 0;
     text-align: center;
     text-decoration: none;
-    
 }
 
 .button a:hover {
@@ -83,7 +78,6 @@ div {
     overflow: hidden;
     background-color: #333;
     width: 100%;
-    /* max-width: 985px; */
     min-height: 50px;
 }
 
@@ -206,7 +200,6 @@ header.main {
     background-color: #333;
     font-size: 16px;
     width: 100%;
-
 }
 
 .main-header-div {
@@ -452,8 +445,6 @@ input[class=cb]:checked~label.strikethrough {
     }
 
     .menus {
-        /* width: 90%; */
-        /* max-width: 615px; */
         margin: 0 auto;
         left: 0;
         right: 0;
