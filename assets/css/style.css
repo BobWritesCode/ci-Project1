@@ -17,11 +17,18 @@ body {
     color: #fafafa; 
 }
 
+div {
+    display: flex;
+}
+
 .page-container {
-    margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 0  auto;
     margin-top: 49px;
-    width: 60%;
-    max-width: 985px;
+    width: 90%;
+    /* max-width: 985px; */
     height: 100%;
     background-color: #fafafa;
 }
@@ -57,6 +64,7 @@ body {
 
 /* This makes sure the Nav bars are always centered and fixed to top of screen */
 .fix-nav  {
+    display: block;
     z-index:99;
     position: fixed;
     top: 0;
@@ -65,7 +73,7 @@ body {
 }
 
 .fix-nav > div {
-    display: flex;
+    /* display: block; */
     justify-content: center;
 }
 
@@ -74,8 +82,8 @@ body {
     text-align: center;
     overflow: hidden;
     background-color: #333;
-    width: 60%;
-    max-width: 985px;
+    width: 100%;
+    /* max-width: 985px; */
     min-height: 50px;
 }
 
@@ -96,7 +104,7 @@ body {
 
 .sticky-menu ul {
     list-style-type: none;
-    display:flex;
+    /* display:flex; */
     justify-content: center;
 }
 
@@ -197,7 +205,15 @@ input:checked ~ .menu-content {
 header.main {
     background-color: #333;
     font-size: 16px;
+    width: 100%;
+
 }
+
+.main-header-div {
+    flex-direction: column;
+    align-items: center;
+}
+
 
 header.non-main h1 {
     font-family: 'Exo', sans-serif;
@@ -264,6 +280,10 @@ header.main p  {
     margin: 25px 0;
     overflow: auto;
     display: flex;
+}
+
+.why div {
+    flex-direction: column;
 }
 
 .why:nth-of-type(2n) {
@@ -411,11 +431,6 @@ input[class=cb]:checked~label.strikethrough {
 /* Smaller than laptop screen */
 @media only screen and (max-width: 1023px) {
 
-    .page-container {
-        width: 90%;
-        max-width: 615px;
-    }
-
     header.non-main h1 {
         font-size: 41px;
     }
@@ -437,8 +452,8 @@ input[class=cb]:checked~label.strikethrough {
     }
 
     .menus {
-        width: 90%;
-        max-width: 615px;
+        /* width: 90%; */
+        /* max-width: 615px; */
         margin: 0 auto;
         left: 0;
         right: 0;
