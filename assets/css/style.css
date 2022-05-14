@@ -329,16 +329,33 @@ header.main p  {
 #contact-form form {
     flex-direction: column;
     color: #fafafa;
-    background-color: rgba(163,89,0, 0.2);
+    background-color: rgba(163,89,0, 0.15);
     padding: 20px;
     margin: 10px 10px 10px 10px;
     border-radius: 20px;
-    border: 2px solid #fafafa;
+    border: 1px solid #D8AD00;
+}
+
+#contact-form p {
+    color: #fafafa;
 }
 
 #contact-form label {
     flex-direction: column;
+    margin-top: 10px;
     color: #fafafa;
+}
+
+#contact-form input, #contact-form textarea {
+    background-color: rgba(250, 250, 250, 0.0);;
+    border: 1px solid #D8AD00;
+    color: #fafafa;
+}
+
+#contact-form input[type=submit] {
+    border: 1px solid #D8AD00;
+    color: #fafafa;
+    margin-top: 10px;
 }
 
 footer {
