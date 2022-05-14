@@ -386,6 +386,10 @@ input[class=cb]:checked~label.strikethrough {
 /* Large Screen screen */
 @media only screen and (min-width: 1642px) {
 
+    #why-all section {
+        flex: 1 1 800px;
+    }
+
     header.non-main h1 {
         font-size: 66px;
     }
