@@ -94,6 +94,10 @@ div, section {
     display: none;
 }
 
+.collapsable-menu div {
+    justify-content: center;
+}
+
 .collapsable-menu label {
     display: block;
     padding: 16px 0;
