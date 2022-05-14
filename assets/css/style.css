@@ -224,7 +224,7 @@ header.main p  {
 }
 
 #home-quick-links {
-    margin-top: 20px;
+    margin: 20px 0;
     list-style-type: none;
     display:flex;
     justify-content: space-around; 
@@ -236,7 +236,7 @@ header.main p  {
 }
 
 #home-quick-links a {
-    margin-top: 20px;
+    margin: 20px 0 0;
     width: 6vw;
     max-width: 100px;
     white-space: nowrap;
@@ -253,7 +253,7 @@ header.main p  {
 }
 
 #why-all section {
-    margin: 10px 10px;
+    margin: 0 10px 20px;
     overflow: hidden;
     background-color: #D8AD00;
     min-block-size: max-content;
