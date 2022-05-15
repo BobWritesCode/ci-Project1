@@ -84,7 +84,6 @@ div, section, form {
 .sticky-menu a {
     float: left;
     padding: 14px 5%;
-    /* width: 10vw; */
     min-width: 110px;
     max-width: 100px;
     white-space: nowrap;
@@ -187,7 +186,6 @@ header.main {
 }
 
 .main-header-div {
-
     flex-direction: column;
     align-items: center;
 }
@@ -319,6 +317,33 @@ header.main p  {
     border-color: #a35900;
 }
 
+#make-layout {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#make-layout > img {
+    max-width: 985px;
+    height: 60vw;
+    max-height: 1231px;
+    object-fit: cover;
+}
+
+#make-layout div {
+    flex-direction: column;
+}
+
+.tip {
+    flex-direction: row !important;
+    border: 2px solid #333;
+    padding: 10px 10px;
+    margin: 10px 20px 0 0;   
+}
+
+.tip span:after {
+    content: 'By clicking the ingredients or steps below you will mark them as done, making it easier to track your progress.';
+}
+
 #form-bg {
     background-image: url("../../form-bg.jpg");
     background-color: #333;
@@ -413,16 +438,6 @@ footer > ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-}
-
-.tip {
-    border: 2px solid #333;
-    padding: 10px 10px;
-    margin: 10px 0;   
-}
-
-.tip span:after {
-    content: 'By clicking the ingredients or steps below you will mark them as done, making it easier to track your progress.';
 }
 
 #ingredients {
@@ -532,6 +547,18 @@ input[class=cb]:checked~label.strikethrough {
         content: ' By tapping the ingredients or steps below you will mark them as done, making it easier to track your progress.';
     }
 
+    #make-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #make-layout div {
+        flex-direction: column;
+    }
+
+    #make-layout > img {
+        min-width: 288px;
+    }
 }
 
 /* Smaller then tablet screen (768px) */
@@ -583,7 +610,7 @@ input[class=cb]:checked~label.strikethrough {
         margin-top: 20px;
         margin-left: 0;
         max-height: 300px;
-        object-fit: cover
+        object-fit: cover;
     }
 
 }

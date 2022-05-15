@@ -46,93 +46,95 @@
             <h1>How to make popcorn</h1>
             <p>Learn to make tasty popcorn in just 6 easy steps!</p>
         </header>
-        <div style="display:flex; justify-content:center; margin: 1vw;">
+        <div id="make-layout">
             <img src="assets/images/popcorn-jug.webp" alt="A small jug of popcorn with syrup being poured over them." width="60%">
-        </div>
-        <div class="tip">
-            <strong>Tip:</strong>&nbsp;<span></span>
-        </div>
-        <section id="ingredients">
             <div>
-                <h2>Ingredients</h2>
-                <ul>
-                    <li>
-                        <input name="icb1" type="checkbox" id="icb1" class="cb">
-                        <label for="icb1" class="strikethrough">3 Tbsp Coconut Oil</label>
-                    </li>
-                    <li>
-                        <input name="icb2" type="checkbox" id="icb2" class="cb">
-                        <label for="icb2" class="strikethrough">1/3 Cup of high quality popcorn kernels</label>
-                    </li>
-                    <li>
-                        <input name="icb3" type="checkbox" id="icb3" class="cb">
-                        <label for="icb3" class="strikethrough">1 Tbsp of butter</label>
-                    </li>
-                    <li>
-                        <input name="icb4" type="checkbox" id="icb4" class="cb">
-                        <label for="icb4" class="strikethrough">Salt to taste</label>
-                    </li>
-                </ul>
+                <div class="tip">
+                    <strong>Tip:</strong>&nbsp;<span></span>
+                </div>
+                <section id="ingredients">
+                    <div>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>
+                                <input name="icb1" type="checkbox" id="icb1" class="cb">
+                                <label for="icb1" class="strikethrough">3 Tbsp Coconut Oil</label>
+                            </li>
+                            <li>
+                                <input name="icb2" type="checkbox" id="icb2" class="cb">
+                                <label for="icb2" class="strikethrough">1/3 Cup of high quality popcorn kernels</label>
+                            </li>
+                            <li>
+                                <input name="icb3" type="checkbox" id="icb3" class="cb">
+                                <label for="icb3" class="strikethrough">1 Tbsp of butter</label>
+                            </li>
+                            <li>
+                                <input name="icb4" type="checkbox" id="icb4" class="cb">
+                                <label for="icb4" class="strikethrough">Salt to taste</label>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div id="instructions">
+                    <section>
+                        <input name="cb" type="checkbox" id="cb" class="cb">
+                        <label for="cb">
+                            <div for="cb">
+                                <h2 class="strikethrough">Step 1</h2>
+                                <p class="strikethrough">Heat the oil in a 3-quart saucepan on medium high heat. If you are using coconut oil, allow all of the solid oil to melt.</p>
+                            </div>
+                        </label>
+                    </section>
+                    <section>
+                        <input name="cb2" type="checkbox" id="cb2" class="cb">
+                        <label for="cb2">
+                            <div for="cb2">
+                                <h2 class="strikethrough">Step 2</h2>
+                                <p class="strikethrough">Put 3 or 4 popcorn kernels into the oil and cover the pan.</p>
+                            </div>
+                        </label>
+                    </section>
+                    <section>
+                        <input name="cb3" type="checkbox" id="cb3" class="cb">
+                        <label for="cb3">
+                            <div for="cb3">
+                                <h2 class="strikethrough">Step 3</h2>
+                                <p class="strikethrough">When the kernels pop, add the rest of the 1/3 cup of popcorn kernels in an even layer. Cover, remove from heat and count 30 seconds. (Count out loud; it's fun to do with kids.) This method first heats the oil to the right temperature, then waiting 30 seconds brings all of the other kernels to a near-popping temperature so that when they are put back on the heat, they all pop at about the same time.</p>
+                            </div>
+                        </label>
+                    </section>
+                    <section>
+                        <input name="cb4" type="checkbox" id="cb4" class="cb">
+                        <label for="cb4">
+                            <div for="cb4">
+                                <h2 class="strikethrough">Step 4</h2>
+                                <p class="strikethrough">Return the pan to the heat. The popcorn should begin popping soon, and all at once. Once the popping starts in earnest, gently shake the pan by moving it back and forth over the burner. Try to keep the lid slightly ajar to let the steam from the popcorn release (the popcorn will be drier and crisper). Once the popping slows to several seconds between pops, remove the pan from the heat, remove the lid, and dump the popcorn immediately into a wide bowl. With this technique, nearly all of the kernels pop, and nothing burns.</p>
+                            </div>
+                        </label>
+                    </section>
+                    <section>
+                        <input name="cb5" type="checkbox" id="cb5" class="cb">
+                        <label for="cb5">
+                            <div for="cb5">
+                                <h2 class="strikethrough">Step 5</h2>
+                                <p class="strikethrough">If you are adding butter, you can easily melt it by placing the butter in the now empty, but hot pan. Note that if you let the butter get just a little bit brown, it will add an even more intense, buttery flavor to the butter and to your popcorn. (Here's more info on how to brown butter.) Just drizzle the melted butter over the popcorn and toss to distribute.</p>
+                            </div>
+                        </label>
+                    </section>
+                    <section>
+                        <input name="cb6" type="checkbox" id="cb6" class="cb">
+                        <label for="cb6">
+                            <div for="cb6">
+                                <h2 class="strikethrough">Step 6</h2>
+                                <p class="strikethrough">Add salt to taste.</p>
+                            </div>
+                        </label>
+                    </section>
+                </div>
             </div>
-        </section>
-        <div id="instructions">
-            <section>
-                <input name="cb" type="checkbox" id="cb" class="cb">
-                <label for="cb">
-                    <div for="cb">
-                        <h2 class="strikethrough">Step 1</h2>
-                        <p class="strikethrough">Heat the oil in a 3-quart saucepan on medium high heat. If you are using coconut oil, allow all of the solid oil to melt.</p>
-                    </div>
-                </label>
-            </section>
-            <section>
-                <input name="cb2" type="checkbox" id="cb2" class="cb">
-                <label for="cb2">
-                    <div for="cb2">
-                        <h2 class="strikethrough">Step 2</h2>
-                        <p class="strikethrough">Put 3 or 4 popcorn kernels into the oil and cover the pan.</p>
-                    </div>
-                </label>
-            </section>
-            <section>
-                <input name="cb3" type="checkbox" id="cb3" class="cb">
-                <label for="cb3">
-                    <div for="cb3">
-                        <h2 class="strikethrough">Step 3</h2>
-                        <p class="strikethrough">When the kernels pop, add the rest of the 1/3 cup of popcorn kernels in an even layer. Cover, remove from heat and count 30 seconds. (Count out loud; it's fun to do with kids.) This method first heats the oil to the right temperature, then waiting 30 seconds brings all of the other kernels to a near-popping temperature so that when they are put back on the heat, they all pop at about the same time.</p>
-                    </div>
-                </label>
-            </section>
-            <section>
-                <input name="cb4" type="checkbox" id="cb4" class="cb">
-                <label for="cb4">
-                    <div for="cb4">
-                        <h2 class="strikethrough">Step 4</h2>
-                        <p class="strikethrough">Return the pan to the heat. The popcorn should begin popping soon, and all at once. Once the popping starts in earnest, gently shake the pan by moving it back and forth over the burner. Try to keep the lid slightly ajar to let the steam from the popcorn release (the popcorn will be drier and crisper). Once the popping slows to several seconds between pops, remove the pan from the heat, remove the lid, and dump the popcorn immediately into a wide bowl. With this technique, nearly all of the kernels pop, and nothing burns.</p>
-                    </div>
-                </label>
-            </section>
-            <section>
-                <input name="cb5" type="checkbox" id="cb5" class="cb">
-                <label for="cb5">
-                    <div for="cb5">
-                        <h2 class="strikethrough">Step 5</h2>
-                        <p class="strikethrough">If you are adding butter, you can easily melt it by placing the butter in the now empty, but hot pan. Note that if you let the butter get just a little bit brown, it will add an even more intense, buttery flavor to the butter and to your popcorn. (Here's more info on how to brown butter.) Just drizzle the melted butter over the popcorn and toss to distribute.</p>
-                    </div>
-                </label>
-            </section>
-            <section>
-                <input name="cb6" type="checkbox" id="cb6" class="cb">
-                <label for="cb6">
-                    <div for="cb6">
-                        <h2 class="strikethrough">Step 6</h2>
-                        <p class="strikethrough">Add salt to taste.</p>
-                    </div>
-                </label>
-            </section>
         </div>
         <div style="display:flex; justify-content:center; margin: 1vw;">
-            <img src="assets/images/popcorn-bowl.webp" alt="A bowl of fresh popcorn." width="90%" style="display:flex; justify-content:center; margin: 1vw;">
+            <img src="assets/images/popcorn-bowl.webp" alt="A bowl of fresh popcorn." style="display:flex; justify-content:center; margin: 1vw; max-width:90%; max-height: 600px;">
         </div>
     </div>
     <footer>
