@@ -49,7 +49,6 @@ div, section, form {
 }
 
 .fix-nav > div {
-    /* display: block; */
     justify-content: center;
 }
 
@@ -79,14 +78,14 @@ div, section, form {
 
 .sticky-menu ul {
     list-style-type: none;
-    /* display:flex; */
     justify-content: center;
 }
 
 .sticky-menu a {
     float: left;
     padding: 14px 5%;
-    width: 10vw;
+    /* width: 10vw; */
+    min-width: 110px;
     max-width: 100px;
     white-space: nowrap;
     overflow: hidden;
@@ -529,14 +528,6 @@ input[class=cb]:checked~label.strikethrough {
         right: 0;
     }
 
-    .sticky-menu {
-        display: none;
-    }
-
-    .collapsable-menu {
-        display: block;
-    }
-
     .tip span:after {
         content: ' By tapping the ingredients or steps below you will mark them as done, making it easier to track your progress.';
     }
@@ -599,6 +590,14 @@ input[class=cb]:checked~label.strikethrough {
 
 /* Images in home sections are 500px wide. When screen is small enough change wrap style of home sections */
 @media only screen and (max-width: 555px) {
+
+    .sticky-menu {
+        display: none;
+    }
+
+    .collapsable-menu {
+        display: block;
+    }
 
 }
 
