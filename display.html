@@ -20,7 +20,7 @@
                     <li class="animation-line-sticky"><a href="make.html">Make</a></li>
                     <li class="animation-line-sticky"><a href="buy.html">Buy</a></li>
                     <li class="animation-line-sticky"><a href="gallery.html">Gallery</a></li>
-                    <li class="animation-line-sticky"><a href="contact.html" class="active">Contact Us</a></li>
+                    <li class="animation-line-sticky"><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,17 +33,46 @@
                 <label for="menu">Menu</label>
                 <div class="menu-content">
                     <ul>
-                        <li class="animation-line-collapsible"  class="active"><a href="index.html">Home</a></li>
+                        <li class="animation-line-collapsible"><a href="index.html">Home</a></li>
                         <li class="animation-line-collapsible"><a href="make.html">Make</a></li>
                         <li class="animation-line-collapsible"><a href="buy.html">Buy</a></li>
                         <li class="animation-line-collapsible"><a href="gallery.html">Gallery</a></li>
-                        <li class="active"><a href="contact.html">Contact Us</a></li>
+                        <li class="animation-line-collapsible"><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
     <div class="page-container">
+        <header style="margin:65px 0 2vw;" class="non-main">
+            <h1>Thank you</h1>
+            <p>We appriciate you using our form, your data has not gone anywhere. No one will see it except you or the person reading over your shoulder, or maybe one of the many central intelligence services around the world.</p>
+        </header>
+        <h2>
+            Here is the data you entered though:
+        </h2>
+        <script>
+            function getParams(){
+                var idx = document.URL.indexOf('?');
+                var params = new Array();
+                if (idx != -1) {
+                    var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+                    for (var i=0; i<pairs.length; i++){
+                        nameVal = pairs[i].split('=');
+                        params[nameVal[0]] = nameVal[1];
+                    }
+                }
+                return params;
+            }
+            params = getParams();
+            name = unescape(params["name"]);
+            email = unescape(params["email"]);
+            feedback = unescape(params["feedback"]);
+            document.write("name = " + name + "<br>");
+            document.write("email = " + email + "<br>");
+            document.write("feedback = " + feedback + "<br>");
+        </script>
+        <a href="index.html">Now let's get you home by clicking here.</a> 
     </div>
     <footer>
         <a href="#top" class="dark-bg-text"><i class="fa-solid fa-arrows-up-to-line"></i> Jump to top of page <i class="fa-solid fa-arrows-up-to-line"></i></a>
