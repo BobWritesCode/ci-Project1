@@ -13,6 +13,10 @@ body {
     background-color: #fafafa;
 }
 
+a {
+    text-decoration: none;
+}
+
 .fa-brands {
     color: #fafafa; 
 }
@@ -366,6 +370,29 @@ header.main p  {
     border: 1px solid #D8AD00;
     color: #fafafa;
     margin-top: 10px;
+}
+
+#display-results {
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+#display-results div {
+    flex-direction: column;
+}
+
+#display-results div>h2 {
+    margin-bottom: 20px;
+}
+
+#display-results div>a {
+    margin-top: 20px;
+}
+
+#display-results img {
+    /* width: 100%;  */
+    margin-left: 40px;
+    max-height: 500px;
 }
 
 footer {
