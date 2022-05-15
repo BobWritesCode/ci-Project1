@@ -352,6 +352,18 @@ header.main p  {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 20px;
+}
+
+#gallery {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+}
+
+#gallery iframe {
+    width: 40vw;
 }
 
 #contact-form {
