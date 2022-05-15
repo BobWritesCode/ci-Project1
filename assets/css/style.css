@@ -329,14 +329,13 @@ header.main p  {
 #contact-form {
     flex-direction: column;
     color: #fafafa;
-    background-color: rgba(163,89,0, 0.3);
+    background-color: rgba(20, 20, 20, .5);
     padding: 20px;
     margin: 10px 10px 10px 10px;
     border-radius: 20px;
     border: 1px solid #D8AD00;
-    max-height: 400px;
+    max-height: 450px;
     max-width: 250px;
-    
 }
 
 #contact-form p {
@@ -345,7 +344,7 @@ header.main p  {
 
 #contact-form label {
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #fafafa;
 }
 
@@ -356,7 +355,7 @@ header.main p  {
 }
 
 #contact-form input[type=checkbox] {
-    margin-top: 14px;
+    margin-top: 48px;
 }
 
 #contact-form div > label {
