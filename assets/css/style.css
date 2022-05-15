@@ -390,7 +390,6 @@ header.main p  {
 }
 
 #display-results img {
-    /* width: 100%;  */
     margin-left: 40px;
     max-height: 500px;
 }
@@ -583,6 +582,17 @@ input[class=cb]:checked~label.strikethrough {
     header.main p {
         top: -4vw;
         font-size: 20px; 
+    }
+
+    #display-results {
+        flex-direction: column;
+    }
+
+    #display-results img {
+        margin-top: 20px;
+        margin-left: 0;
+        max-height: 300px;
+        object-fit: cover
     }
 
 }
