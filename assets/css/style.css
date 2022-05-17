@@ -361,10 +361,9 @@ header.main p  {
 }
 
 #gallery iframe {
-    width: 53.333333vw;
     margin: 5px;
-    height: 30vw;
-    max-height: 333px;
+    width: 592px;
+    height: 333px;
 }
 
 #gallery div {
@@ -373,7 +372,6 @@ header.main p  {
     justify-content: center;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    min-block-size: max-content;
     flex: 1 1 500px;
 }
 
@@ -595,6 +593,11 @@ input[class=cb]:checked~label.strikethrough {
     #home-quick-links li:nth-child(2n) {
         display: none;
     }
+
+    #gallery iframe {
+        max-width: 500px;
+        max-height: 333px;
+    }
     
 }
 
@@ -652,6 +655,15 @@ input[class=cb]:checked~label.strikethrough {
 
     .collapsable-menu {
         display: block;
+    }
+
+    #gallery iframe {
+        max-width: 280px;
+        max-height: 157.5px;
+    }
+
+    #gallery img {
+        max-width: 280px;
     }
 
 }
