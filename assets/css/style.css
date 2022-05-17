@@ -356,6 +356,18 @@ header.main p  {
 }
 
 #gallery {
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallery iframe {
+    width: 53.333333vw;
+    margin: 5px;
+    height: 30vw;
+    max-height: 333px;
+}
+
+#gallery div {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -368,10 +380,6 @@ header.main p  {
 #gallery img {
     max-height: 333px;
     margin: 5px;
-}
-
-#gallery iframe {
-    width: 40vw;
 }
 
 #contact-form {
