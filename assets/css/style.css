@@ -188,6 +188,7 @@ header.main {
 .main-header-div {
     flex-direction: column;
     align-items: center;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='265px'><text x='0' y='35' fill='rgb(3, 3, 3, 0.2)' font-size='50' >POPCORN</text></svg>");
 }
 
 header.non-main h1 {
