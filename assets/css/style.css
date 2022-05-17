@@ -198,7 +198,7 @@ header.non-main h1 {
     text-decoration: underline;
     color: #333;
     text-align: center;
-    text-transform: uppercases;
+    text-transform: uppercase;
 }
 
 header.non-main p {
