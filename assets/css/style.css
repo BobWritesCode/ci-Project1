@@ -346,7 +346,7 @@ header.main p  {
 }
 
 #form-bg {
-    background-image: url("../../form-bg.jpg");
+    background-image: url("../images/form-bg.webp");
     background-color: #333;
     height: 500px;
     width: 100%;
