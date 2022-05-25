@@ -20,7 +20,6 @@ Why choose Popcorn? - [https://bobwritescode.github.io/ci-Project1](https://bobw
     - [Features Left to Implement](#Features-Left-to-Implement)
 - [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
-    - [Validation Results - Separate Document](./readme-content/w3c.md)
 - [Bugs](#Bugs)
     - [Current](#Current)
     - [Resolved](#Resolved)

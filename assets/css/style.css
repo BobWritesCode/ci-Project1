@@ -445,8 +445,31 @@ header.main p  {
     max-height: 500px;
 }
 
+.back-to-top {
+    justify-content: center;
+}
+
+.back-to-top * {
+    color: #fff;
+}
+
+.back-to-top button {
+    color: #fff !important;
+    background-color: #333 !important;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    white-space: nowrap;
+}
+
 footer {
-    color: #fafafa;
     font-weight: 300;
     text-align: center;
     overflow: hidden;
@@ -454,6 +477,22 @@ footer {
     min-height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+footer * {
+    color: #fafafa;
+}
+
+footer div {
+    padding: 10px 0;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.footer-contact {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0;
 }
 
 footer i {
@@ -465,6 +504,14 @@ footer > ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    padding-bottom: 10px;
+}
+
+footer hr {
+    height:1px; 
+    border:none; 
+    color:rgb(92, 92, 92); 
+    background-color:rgb(92, 92, 92);
 }
 
 #ingredients {
