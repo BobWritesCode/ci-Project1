@@ -120,6 +120,15 @@ Interactive elements
 #### Blog
 - This would allow me to provide a way for the site owner to provide regular updates straight to site visitors.
 
+***
+## Technologies Used
+
+### Languages Used
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+- [JavaScript](https://www.javascript.com/) - Used to process the data submitted on the contact form to show on the next page.
 
 ***
 
