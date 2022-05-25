@@ -11,7 +11,6 @@ Why choose Popcorn? - [https://bobwritescode.github.io/ci-Project1](https://bobw
 - [UX &#8722; User Experience Design](#UX-&#8722;-User-Experience-Design)
 - [Initial Concept](#Initial-Concept)
     - [Wireframes](#Wireframes)
-        - [All Wireframes - Separate Document](./readme-content/wireframes.md)
     - [Colour Scheme](#Colour-Scheme)
     - [Typography](#Typography)
     - [Imagery](#Imagery)
@@ -91,8 +90,8 @@ Becuase I didn't want to have tooo much white space, I used SVG as a background 
 These images were choosen to show enjoyment. They were all framed 16:9 to be uniformed and to work better together when scaling for different screen sizes.
 
 ***
-## Features
-### Existing Features
+## **Features**
+### **Existing Features**
 - Responsive on all device sizes.
 - By using mobile first design I have created a website that is fully responsive on all screen sizes.
 - I have used the CSS Flex classes to adjust the layout based on the device screen size. This allows the images and texts to look good and be easy to read.
@@ -101,8 +100,8 @@ These images were choosen to show enjoyment. They were all framed 16:9 to be uni
 - On the gallery page there is YouTube video that the user can play and pause.
 Interactive elements
 
-#### Nav Bar / Menu
-![Nav Bar](assets/docs/animated-line.gif) 
+#### **Nav Bar / Menu**
+![Nav Bar](assets/docs/animated-line.gif)\
 ![Mobile Menu](assets/docs/mobile-menu.png) 
 
 - The Nav bar is sticky to the top of the page, so as you scroll down it stays at the top of the screen.
@@ -112,26 +111,24 @@ Interactive elements
 ![Mobile Menu](assets/docs/main-header.webp) 
 - I have position the header text to slightly overlay the hero image, to try and provide a path to direct the user to scroll down.
 
-### Features Left to Implement
+### **Features Left to Implement**
 
-#### E-Commerce
+#### **E-Commerce**
 - There could be section of the site to purchase popcorn online.
-#### Blog
+#### **Blog**
 - This would allow me to provide a way for the site owner to provide regular updates straight to site visitors.
 
 ***
-## Technologies Used
+## **Technologies Used**
 
-### Languages Used
+### **Languages Used**
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
-
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-
 - [JavaScript](https://www.javascript.com/) - Used to process the data submitted on the contact form to show on the next page.
 
 ***
 
-## Bugs
+## **Bugs**
 
 ![White line between blocks](assets/docs/line-bug.png)\
 **Bug:** A white line appeared between the hero image and the block for the header.\
@@ -141,8 +138,61 @@ Interactive elements
 **Bug:** Other elements apeparing on top of collasible menu.\
 **Solution:** Add *z-index:99;* to .menus class to make sure menus are always on top.
 
----
+***
+## Deployment
 
+### GitHub Pages
+
+The project was deployed to GitHub Pages using these steps:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
+2. Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
+3. Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
+4. Under "Source", click the dropdown called "None" and select "main". Click save.
+5. The page will automatically refresh.
+6. A notification will appear at the top of the page with the [link](https://bobwritescode.github.io/ci-Project1/) to the deployed site. You can return to this GitHub Pages section to access the link.
+
+### Forking the GitHub Repository
+
+Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
+
+To Fork a Github Repository:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
+2. Locate the Fork button in the top-right corner of the page, click Fork.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+You will now have a fork of the repository, but you don't have the files in that repository locally on your computer.
+
+To make a local clone:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub AE username instead of YOUR-USERNAME:
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `milestone-project-one`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the GitHub quick start guide with images and more detailed explanations of the above process.
+
+***
 ## Credits
 
 ### Code
