@@ -63,7 +63,7 @@ A key focus is to deliver a high level experience for mobile, tablet and PC user
 ![Wireframe](assets/docs/wireframe.png)
 
 ### **Colour Scheme**
-![Colour Palette](assets/docs/palette.png)\
+![Colour Palette](assets/docs/palette.webp)\
 A simple and refined colour scheme has been used.\
 The white provides a nice canvas and is slightly off white to be easier on the user's eyes and blend better with the other colours.\
 The yellow / gold is to symoblise happiness and is a strong bold colour to draw the eye of the user into the page.\
@@ -102,14 +102,21 @@ Interactive elements
 
 #### **Nav Bar / Menu**
 ![Nav Bar](assets/docs/animated-line.gif)\
-![Mobile Menu](assets/docs/mobile-menu.png) 
-
+![Mobile Menu](assets/docs/mobile-menu.png)
 - The Nav bar is sticky to the top of the page, so as you scroll down it stays at the top of the screen.
 - As you move the cursor over the choices there is animated line to highlight the option you are about to select.
 - On a smaller screen the bar becomes collapsable and by tapping/click on menu it opens the menu as fullscreen.
 
-![Mobile Menu](assets/docs/main-header.webp) 
+![Mobile Menu](assets/docs/main-header.webp)
 - I have position the header text to slightly overlay the hero image, to try and provide a path to direct the user to scroll down.
+
+#### **Mark what you have completed**
+![Mobile Menu](assets/docs/demo-strike.gif)
+- The user can click or tap on the ingredients or steps they have completed, making it easier to follow the recipe.
+
+#### **Click-to-Tap**
+![Mobile Menu](assets/docs/click-to-tap.webp)
+- Once the screen size gets small enough, the text will change from "By clicking" to "By tapping". Providing better language based on device being used.
 
 ### **Features Left to Implement**
 
@@ -130,18 +137,18 @@ Interactive elements
 
 ## **Bugs**
 
-![White line between blocks](assets/docs/line-bug.png)\
+![White line between blocks](assets/docs/bug-line.webp)\
 **Bug:** A white line appeared between the hero image and the block for the header.\
 **Solution:** Incase the header and hero image in a div and add *style="font-size: 0;"* as an attribute to the div.
 
-![White line between blocks](assets/docs/collapsible-menu.png)\
+![White line between blocks](assets/docs/bug-overlay.webp)\
 **Bug:** Other elements apeparing on top of collasible menu.\
 **Solution:** Add *z-index:99;* to .menus class to make sure menus are always on top.
 
 ***
-## Deployment
+## **Deployment**
 
-### GitHub Pages
+### **GitHub Pages**
 
 The project was deployed to GitHub Pages using these steps:
 
@@ -152,7 +159,7 @@ The project was deployed to GitHub Pages using these steps:
 5. The page will automatically refresh.
 6. A notification will appear at the top of the page with the [link](https://bobwritescode.github.io/ci-Project1/) to the deployed site. You can return to this GitHub Pages section to access the link.
 
-### Forking the GitHub Repository
+### **Forking the GitHub Repository**
 
 Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
@@ -162,7 +169,7 @@ To Fork a Github Repository:
 2. Locate the Fork button in the top-right corner of the page, click Fork.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
+### **Making a Local Clone**
 
 You will now have a fork of the repository, but you don't have the files in that repository locally on your computer.
 
@@ -183,7 +190,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `milestone-project-one`...
+> Cloning into `ci-Project1`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
@@ -207,9 +214,3 @@ I have modified this code as the original has the line come from bottom left and
 - [Pexels](https://www.pexels.com/)
 - [Image optimising](http://www.imageoptimizer.net/Home.aspx)
 - [yousafbhutta](https://pixabay.com/users/yousafbhutta-2933897/)
-- [Los Muertos Crew](https://www.pexels.com/@cristian-rojas/)
-- [Elsa Olofsson](https://www.pexels.com/@elsa-olofsson-3357043/)
-- [Ron Lach](https://www.pexels.com/@ron-lach/)
-- [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
-- [Monstera](https://www.pexels.com/@gabby-k/)
-- [Anna Pyshniuk](https://www.pexels.com/@anna-pyshniuk-2453945/)
