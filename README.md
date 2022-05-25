@@ -89,7 +89,37 @@ Becuase I didn't want to have tooo much white space, I used SVG as a background 
 
 #### **Section images**
 ![Section Image](assets/docs/section-example.png)\
-These images were choosen to show enjoyment. They were all framed 16:9 to be unfiromeed and to work better together when scaling for different screen sizes.
+These images were choosen to show enjoyment. They were all framed 16:9 to be uniformed and to work better together when scaling for different screen sizes.
+
+***
+## Features
+### Existing Features
+- Responsive on all device sizes.
+- By using mobile first design I have created a website that is fully responsive on all screen sizes.
+- I have used the CSS Flex classes to adjust the layout based on the device screen size. This allows the images and texts to look good and be easy to read.
+
+![Mobile Menu](assets/docs/youtube-video.webp) 
+- On the gallery page there is YouTube video that the user can play and pause.
+Interactive elements
+
+#### Nav Bar / Menu
+![Nav Bar](assets/docs/animated-line.gif) 
+![Mobile Menu](assets/docs/mobile-menu.png) 
+
+- The Nav bar is sticky to the top of the page, so as you scroll down it stays at the top of the screen.
+- As you move the cursor over the choices there is animated line to highlight the option you are about to select.
+- On a smaller screen the bar becomes collapsable and by tapping/click on menu it opens the menu as fullscreen.
+
+![Mobile Menu](assets/docs/main-header.webp) 
+- I have position the header text to slightly overlay the hero image, to try and provide a path to direct the user to scroll down.
+
+### Features Left to Implement
+
+#### E-Commerce
+- There could be section of the site to purchase popcorn online.
+#### Blog
+- This would allow me to provide a way for the site owner to provide regular updates straight to site visitors.
+
 
 ***
 
