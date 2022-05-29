@@ -447,26 +447,24 @@ header.main p  {
     max-height: 500px;
 }
 
-.back-to-top {
-    justify-content: center;
-}
-
 .back-to-top * {
-    color: #fff;
+    color: #fff !important;
 }
 
-.back-to-top button {
-    color: #fff !important;
+.back-to-top {
+    width: max-content;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 10px 16px;
     background-color: #333 !important;
     border: none;
     border-radius: 5px;
-    padding: 8px 16px;
-    margin-bottom: 10px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    background-color: inherit;
     text-align: center;
     white-space: nowrap;
 }

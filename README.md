@@ -1,9 +1,12 @@
 # **Portfolio Project 1 - HTML/CSS Essentials**
 ![Multiple Device Demo](assets/docs/amiresponsive.png "Multiple Device Demo")
+
 ## **Live Site**
 Why choose Popcorn? - [https://bobwritescode.github.io/ci-Project1](https://bobwritescode.github.io/ci-Project1)
+
 ## **Repository**
-[https://github.com/daveyjh/ci-portfolio-one-v4](https://github.com/BobWritesCode/ci-Project1)
+[https://github.com/BobWritesCode/ci-Project1](https://github.com/BobWritesCode/ci-Project1)
+
 ***
 ## **Table of Contents**
 - [Objective](#Objective)
@@ -24,10 +27,11 @@ Why choose Popcorn? - [https://bobwritescode.github.io/ci-Project1](https://bobw
     - [Resolved](#Resolved)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
-    - [Content](#Content)
+    - [Code](#Content)
     - [Media](#Media)
-    - [Acknowledgements](#Acknowledgements)
+    - [Miscellaneous](#Miscellaneous)
 - [Personal Development](#Personal-Development)
+
 ***
 ## **Objective**
 In this project I intent to create a website that provides some basic information on why people should choose popcorn and how to make popcorn.
@@ -37,6 +41,7 @@ The main objective is to demonstrate competency in HTML and CSS.  There are some
 The website is designed to be responsive between different devices and the use of the site to be intuitive by any user.
 
 **The needs within this project are not genuine and are made purely for the purpose of completing my Code Institute project**
+
 ***
 ## **Brief**
 The goal of this website is to provide the end user basic information to why they should choose popcorn as a snack.  
@@ -48,6 +53,7 @@ My goals for the site are to have:
 - a uniform approach so all pages other than the homepage have a familiar look and style.
 ***
 ## **UX &#8722; User Experience Design**
+
 ### **User Requirements**
 Some example user stories which will affect the design:
 - *"As a first time visitor, I want to know what this site is about. I may use several different devices (mobile/tablet etc.) to view the site. I would like to be able to navigate easily"*
@@ -91,6 +97,7 @@ These images were chosen to show enjoyment. They were all framed 16:9 to be unif
 
 ***
 ## **Features**
+
 ### **Existing Features**
 - Responsive on all device sizes.
 - By using mobile first design I have created a website that is fully responsive on all screen sizes.
@@ -106,7 +113,6 @@ Interactive elements
 - The Nav bar is sticky to the top of the page, so as you scroll down it stays at the top of the screen.
 - As you move the cursor over the choices there is animated line to highlight the option you are about to select.
 - On a smaller screen the bar becomes collapsible and by tapping/clicking on ‘menu’ it opens the navigation in full screen.
-
 ![Mobile Menu](assets/docs/main-header.webp)
 - I have position the header text to slightly overlay the hero image, to try and provide a path to direct the user to scroll down.
 
@@ -122,10 +128,11 @@ Interactive elements
 
 #### **E-Commerce**
 - There could be section of the site to purchase popcorn online.
+
 #### **Blog**
 - This would allow me to provide a way for the site owner to provide regular updates straight to site visitors.
-
 ***
+
 ## **Technologies Used**
 
 ### **Languages Used**
@@ -134,8 +141,12 @@ Interactive elements
 - [JavaScript](https://www.javascript.com/) - Used to process the data submitted on the contact form to show on the next page.
 
 ***
-
 ## **Bugs**
+
+### Current
+There are currently no bugs I am aware of.
+
+### Resolved
 
 ![White line between blocks](assets/docs/bug-line.webp)\
 **Bug:** A white line appeared between the hero image and the block for the header.\
@@ -149,7 +160,6 @@ Interactive elements
 ## **Deployment**
 
 ### **GitHub Pages**
-
 The project was deployed to GitHub Pages using these steps:
 
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
@@ -160,17 +170,14 @@ The project was deployed to GitHub Pages using these steps:
 6. A notification will appear at the top of the page with the [link](https://bobwritescode.github.io/ci-Project1/) to the deployed site. You can return to this GitHub Pages section to access the link.
 
 ### **Forking the GitHub Repository**
-
 Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
 To Fork a GitHub Repository:
-
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
 2. Locate the Fork button in the top-right corner of the page, click Fork.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### **Making a Local Clone**
-
 You will now have a fork of the repository, but you don't have the files in that repository locally on your computer.
 
 To make a local clone:
@@ -203,16 +210,14 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 ## Credits
 
 ### Code
-
 ![Animated line](assets/docs/animated-line.gif) \
 ![Animated line](assets/docs/animated-line-2.gif) \
 https://www.30secondsofcode.org/css/s/hover-underline-animation \
 I have modified this code as the original has the line come from bottom left and go of to bottom right. I preferred the line to go back to the bottom left, as this looked better when going between the different links in the nav bar.
 
-### Images
-
+### Media
 - [Pexels](https://www.pexels.com/)
 
 ### Miscellaneous
-
+- [Code Institue](https://codeinstitute.net/) for helping me learn HTML and CSS.
 - [EZGIF](https://ezgif.com/) for Image optimisation
