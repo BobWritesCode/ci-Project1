@@ -19,6 +19,9 @@ The CSS stylesheet passed with no errors found.
 ## Homepage (index.html)
 [Homepage - index.html](https://bobwritescode.github.io/ci-Project1/index.html)
 
+### W3C html validator
+- No errors or warnings to show.
+
 ### PC
 ![Lighthouse Score](assets/docs/testing/home-pc.webp)
 
