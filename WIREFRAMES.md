@@ -36,6 +36,11 @@ Another change I made for PC to elimate unsused white space was to move the imag
 
 As before originally for PC it has the 60% width design which following feedback I changed to 90% screen width.
 
-![make.html Live site](assets/docs/wireframes/gallery.webp) 
+![gallery.html Live site](assets/docs/wireframes/gallery.webp) 
 
 A change that I made for all devices was to move away from the proposed grid format and to a more fluid design.
+***
+## Contact Us (contact.html)
+![contact.html Wireframe](assets/docs/wireframes/wf-contact.webp)\
+[Contact Us - contact.html](https://bobwritescode.github.io/ci-Project1/contact.html)
+
