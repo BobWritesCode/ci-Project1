@@ -384,7 +384,7 @@ header.main p  {
 #contact-form {
     flex-direction: column;
     color: #fafafa;
-    background-color: rgba(20, 20, 20, .5);
+    background-color: rgba(20, 20, 20, .95);
     padding: 20px;
     margin: 10px 10px 10px 10px;
     border-radius: 20px;
