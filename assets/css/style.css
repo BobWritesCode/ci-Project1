@@ -1,1 +1,600 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Passion+One&family=Signika+Negative:wght@300;400&display=swap");*{color:#333;font-family:Signika Negative,sans-serif;margin:0;padding:0;scroll-behavior:smooth}body{background-color:#fafafa}a{text-decoration:none}.fa-brands{color:#fafafa}div,form,section{display:flex}.page-container{background-color:#fafafa;flex-direction:column;height:100%;margin:0 auto;width:90%}.dark-bg-text,[for=menu]{color:#fafafa;text-decoration:none}.fix-nav{display:block;margin:0 auto;position:fixed;top:0;width:100%;z-index:99}.fix-nav>div{justify-content:center}.menus{background-color:#333;min-height:50px;overflow:hidden;width:100%}.menu-font a,.menus{color:#fafafa;text-align:center}.menu-font a{text-decoration:none}.active{border-bottom:1px solid #fafafa!important}.sticky-menu{height:50px}.sticky-menu ul{justify-content:center;list-style-type:none}.sticky-menu a{float:left;max-width:100px;min-width:110px;overflow:hidden;padding:14px 5%;text-overflow:clip;white-space:nowrap}.collapsable-menu{display:none}.collapsable-menu div{justify-content:center}.collapsable-menu label{display:block;padding:16px 0}.collapsable-menu ul{list-style-type:none;padding:0;width:90%}.collapsable-menu li{border-bottom:1px solid transparent;padding:14px 0}.collapsible-menu a{display:block;text-decoration:none}.collapsible-menu label{cursor:pointer;display:block;font-size:56px;padding:10px 0 10px 50px}input#menu{display:none}.menu-content{max-height:0;overflow:hidden}input:checked~.menu-content{margin-bottom:100vh;max-height:100%}.animation-line-collapsible,.animation-line-sticky,.animation-line-white-bg{position:relative}.animation-line-collapsible{display:block}.animation-line-sticky,.animation-line-white-bg{display:inline-block}.animation-line-collapsible:after,.animation-line-sticky:after,.animation-line-white-bg:after{background-color:#fafafa;bottom:0;content:"";height:1px;left:0;position:absolute;transform:scaleX(0);transform-origin:bottom left;transition:transform .25s ease-out;width:100%}.animation-line-white-bg:after{background-color:#333}.animation-line-collapsible:hover:after,.animation-line-sticky:hover:after,.animation-line-white-bg:hover:after{transform:scaleX(1);transform-origin:bottom left;transition:transform .5s ease-out}header.main{background-color:#333;font-size:16px;width:100%}.main-header-div{align-items:center;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='265px'><text x='0' y='35' fill='rgb(3, 3, 3, 0.2)' font-size='50' >POPCORN</text></svg>");flex-direction:column}header.non-main h1{color:#333;font-size:4vw;text-decoration:underline;text-transform:uppercase}header.non-main h1,header.non-main p{font-family:Exo,sans-serif;text-align:center}header.non-main p{font-size:2vw}header.main h1{-webkit-text-stroke-width:2px;-webkit-text-stroke-color:#333;color:#d8ad00;font-family:Passion One,cursive;font-size:6vw;position:relative;text-align:center;text-transform:none;top:-3vw}header.main p{color:#fafafa;font-family:Signika Negative,sans-serif;font-size:inherit;font-size:2.5vw;position:relative;text-align:center;top:-3vw}#home-quick-links{display:flex;justify-content:space-around;list-style-type:none;margin:20px 0}#home-quick-links li{text-align:center;width:100%}#home-quick-links a{margin:20px 0 0;max-width:100px;overflow:hidden;text-decoration:none;text-overflow:clip;white-space:nowrap;width:6vw}#why-all{align-items:center;flex-wrap:wrap;justify-content:center;text-align:center}#why-all section{background-color:#d8ad00;flex:1 1 600px;margin:0 10px 20px;min-block-size:max-content;overflow:hidden;width:100%}#why-all section:nth-of-type(2n){flex-direction:row-reverse}#why-all section>div{align-content:center;flex-direction:column;justify-content:space-between;width:100%}#why-all img{height:15vw;max-height:333px;min-height:200px;object-fit:cover}#why-all h2{font-size:clamp(20px,1.3vw,35px);padding:2% 0 .5%}#why-all p{font-size:clamp(16px,1.2vw,25px);margin:0 5%}.button{display:flex;justify-content:space-around;margin:10px 0}.button a{background-color:#a35900;border:2px solid #fafafa;border-radius:5%;color:#fafafa;margin:1vw 0;padding:5px 20px;text-align:center;text-decoration:none}.button a:hover{background-color:#fafafa;border-color:#a35900;color:#a35900}#make-layout{flex-direction:row-reverse;justify-content:space-around}#make-layout>img{height:60vw;max-height:1231px;max-width:985px;object-fit:cover}#make-layout div{flex-direction:column}.tip{border:2px solid #333;flex-direction:row!important;margin:10px 20px 0 0;padding:10px}.tip span:after{content:"By clicking the ingredients or steps below you will mark them as done, making it easier to track your progress."}#form-bg{background-color:#333;background-image:url(../images/form-bg.webp);background-position:50%;background-repeat:no-repeat;background-size:cover;height:500px;margin-bottom:20px;width:100%}#gallery{align-items:center;flex-direction:column}#gallery iframe{height:333px;margin:5px;width:592px}#gallery div{align-items:center;flex:1 1 500px;flex-direction:row;flex-wrap:wrap;justify-content:center;margin-bottom:20px}#gallery img{margin:5px;max-height:333px}#contact-form{background-color:hsla(0,0%,8%,.95);border:1px solid #d8ad00;border-radius:20px;color:#fafafa;flex-direction:column;margin:10px;max-height:450px;max-width:250px;padding:20px}#contact-form p{color:#fafafa}#contact-form label{color:#fafafa;flex-direction:column;margin-top:20px}#contact-form input,#contact-form textarea{background-color:hsla(0,0%,98%,0);border:1px solid #d8ad00;color:#fafafa;padding:5px}#contact-form input[type=checkbox]{margin-top:48px}#contact-form div>label{margin-left:5px}#contact-form input[type=submit]{border:1px solid #d8ad00;color:#fafafa;margin-top:10px;padding:5px 0}#display-results{justify-content:center;margin:0 0 20px}#display-results div{flex-direction:column}#display-results div>h2{margin-bottom:20px}#display-results div>a{margin-top:20px}#display-results img{margin-left:40px;max-height:500px}.back-to-top *{color:#fff!important}.back-to-top{background-color:#333!important;border:none;border-radius:5px;color:inherit;justify-content:center;margin:10px auto;padding:10px 16px;text-decoration:none;vertical-align:middle;white-space:nowrap;width:max-content}.back-to-top,footer{overflow:hidden;text-align:center}footer{background-color:#333;font-weight:300;min-height:50px;padding-bottom:10px;padding-top:10px}footer *,footer div{color:#fafafa}footer div{justify-content:center;padding:10px 0}.footer-contact{flex-direction:column;justify-content:flex-start;padding:10px 0}footer i{color:#fafafa;font-weight:200}footer>ul{display:flex;justify-content:space-around;list-style:none;padding-bottom:10px}footer hr{background-color:#5c5c5c;border:none;color:#5c5c5c;height:1px}#ingredients{border-left:2px solid #00d8c6;margin:10px 0}#ingredients div{flex-direction:column;padding:10px}#ingredients ul{list-style:inside;padding:10px}#instructions{flex-direction:column}#instructions section{border-left:2px solid #d8ad00;margin:10px 0}#instructions section div{flex-direction:column;padding:10px}#instructions section div p{padding:10px}input[class=cb]{display:none}input[class=cb]:checked~label .strikethrough,input[class=cb]:checked~label.strikethrough{text-decoration:line-through}@media only screen and (min-width:1642px){#why-all section{flex:1 1 718px}header.non-main h1{font-size:66px}header.non-main p{font-size:33px}header.main h1{font-size:98.5px}header.main h1,header.main p{position:relative;top:-49.23px}header.main p{font-size:41px}}@media only screen and (max-width:1023px){header.non-main h1{font-size:41px}header.non-main p{font-size:21px}header.main h1{font-size:61.44px;position:relative;top:-31px}header.main p{font-size:25.6px;position:relative;top:-31px}.menus{left:0;margin:0 auto;right:0}.tip span:after{content:" By tapping the ingredients or steps below you will mark them as done, making it easier to track your progress."}#make-layout{align-items:center}#make-layout,#make-layout div{flex-direction:column}#make-layout>img{min-width:288px}}@media only screen and (max-width:767px){#home-quick-links li:nth-child(2n){display:none}#gallery iframe{max-height:333px;max-width:500px}}@media only screen and (max-width:700px){#why-all section,#why-all section:nth-of-type(2n){flex-direction:column;max-width:500px}#why-all img{height:100%;object-fit:none}header.non-main h1{font-size:6vw}header.non-main p{font-size:3vw}header.main h1{-webkit-text-stroke-width:1px;font-size:9vw;top:-4vw}header.main p{font-size:20px;top:-4vw}#display-results{flex-direction:column}#display-results img{margin-left:0;margin-top:20px;max-height:300px;object-fit:cover}}@media only screen and (max-width:555px){.sticky-menu{display:none}.collapsable-menu{display:block}#gallery iframe{max-height:157.5px;max-width:280px}#gallery img{max-width:280px}}@media only screen and (max-width:425px){header.non-main h1{font-size:25.5px}header.non-main p{font-size:13px}header.main h1{font-size:38.34px}header.main p{font-size:20px}}
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Passion+One&family=Signika+Negative:wght@300;400&display=swap');
+/* Resetting broswer default stylesheets */
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Signika Negative', sans-serif;
+    color: #333;
+}
+body {
+    background-color: #fafafa;
+}
+a {
+    text-decoration: none;
+}
+.fa-brands {
+    color: #fafafa; 
+}
+div, section, form {
+    display: flex;
+}
+.page-container {
+    flex-direction: column;
+    margin: 0  auto;
+    width: 90%;
+    height: 100%;
+    background-color: #fafafa;
+}
+.dark-bg-text, [for="menu"] {
+    color: #fafafa;
+    text-decoration: none;
+}
+/* This makes sure the Nav bars are always centered and fixed to top of screen */
+.fix-nav  {
+    display: block;
+    z-index:99;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.fix-nav > div {
+    justify-content: center;
+}
+.menus {
+    color: #fafafa;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    min-height: 50px;
+}
+.menu-font a {
+    color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+}
+.active {
+    border-bottom: 1px solid #fafafa !important;
+}
+/* Sticky Nav styling */
+.sticky-menu {
+    height: 50px;
+}
+.sticky-menu ul {
+    list-style-type: none;
+    justify-content: center;
+}
+.sticky-menu a {
+    float: left;
+    padding: 14px 5%;
+    min-width: 110px;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.collapsable-menu {
+    display: none;
+}
+.collapsable-menu div {
+    justify-content: center;
+}
+.collapsable-menu label {
+    display: block;
+    padding: 16px 0;
+}
+.collapsable-menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+}
+.collapsable-menu li {
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.collapsible-menu a {
+    display: block;
+    text-decoration: none;
+}
+.collapsible-menu label {
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 0 10px 50px;
+}
+input#menu {
+    display: none;
+}
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+    margin-bottom: 100vh;
+}
+.animation-line-sticky, .animation-line-collapsible, .animation-line-white-bg {
+    position: relative;
+}
+.animation-line-collapsible {
+    display: block;
+}
+.animation-line-sticky, .animation-line-white-bg {
+    display: inline-block;
+}
+.animation-line-sticky:after, .animation-line-collapsible:after, .animation-line-white-bg:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafa;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+.animation-line-white-bg:after {
+    background-color: #333;
+}
+.animation-line-sticky:hover:after, .animation-line-collapsible:hover:after, .animation-line-white-bg:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+}
+header.main {
+    background-color: #333;
+    font-size: 16px;
+    width: 100%;
+}
+.main-header-div {
+    flex-direction: column;
+    align-items: center;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='265px'><text x='0' y='35' fill='rgb(3, 3, 3, 0.2)' font-size='50' >POPCORN</text></svg>");
+}
+header.non-main h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+}
+header.non-main p {
+    font-family: 'Exo', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+header.main h1  {
+    font-family: 'Passion One', cursive;
+    color: #D8AD00;
+    font-size: 6vw; 
+    text-transform: none;
+    text-align: center;
+    position: relative;
+    top: -3vw;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+}
+header.main p  {
+    font-family: 'Signika Negative', sans-serif;
+    color: #fafafa;
+    position: relative;
+    top: -3vw;
+    font-size: inherit;
+    font-size: 2.5vw; 
+    text-align: center;
+}
+#home-quick-links {
+    margin: 20px 0;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around; 
+}
+#home-quick-links li {
+    width: 100%;
+    text-align: center;
+}
+#home-quick-links a {
+    margin: 20px 0 0;
+    width: 6vw;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-decoration: none;
+}
+#why-all {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#why-all section {
+    margin: 0 10px 20px;
+    overflow: hidden;
+    background-color: #D8AD00;
+    min-block-size: max-content;
+    flex: 1 1 600px;
+    width: 100%;
+}
+#why-all section:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+#why-all section > div {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+#why-all img {
+    height: 15vw;
+    max-height: 333px;
+    min-height: 200px;
+    object-fit: cover;
+}
+#why-all h2 {
+    font-size: clamp(20px, 1.3vw, 35px);
+    padding: 2% 0 0.5%;
+}
+#why-all p {
+    font-size: clamp(16px, 1.2vw, 25px);
+    margin: 0 5% 0 5%;
+}
+.button {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.button a {
+    background-color: #a35900;
+    color: #fafafa;
+    border-radius: 5%;
+    border: 2px solid #fafafa;
+    padding: 5px 20px;
+    margin: 1vw 0;
+    text-align: center;
+    text-decoration: none;
+}
+.button a:hover {
+    background-color: #fafafa;
+    color: #a35900;
+    border-color: #a35900;
+}
+#make-layout {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+#make-layout > img {
+    max-width: 985px;
+    height: 60vw;
+    max-height: 1231px;
+    object-fit: cover;
+}
+#make-layout div {
+    flex-direction: column;
+}
+.tip {
+    flex-direction: row !important;
+    border: 2px solid #333;
+    padding: 10px 10px;
+    margin: 10px 20px 0 0;   
+}
+.tip span:after {
+    content: 'By clicking the ingredients or steps below you will mark them as done, making it easier to track your progress.';
+}
+#form-bg {
+    background-color: #333;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#gallery {
+    flex-direction: column;
+    align-items: center;
+}
+#gallery iframe {
+    margin: 5px;
+    width: 592px;
+    height: 333px;
+}
+#gallery div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex: 1 1 500px;
+}
+#gallery img {
+    max-height: 333px;
+    margin: 5px;
+}
+#contact-form {
+    flex-direction: column;
+    color: #fafafa;
+    background-color: rgba(20, 20, 20, .95);
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: 1px solid #D8AD00;
+    max-height: 450px;
+    max-width: 250px;
+}
+#contact-form p {
+    color: #fafafa;
+}
+#contact-form label {
+    flex-direction: column;
+    margin-top: 20px;
+    color: #fafafa;
+}
+#contact-form input, #contact-form textarea {
+    background-color: rgba(250, 250, 250, 0.0);;
+    border: 1px solid #D8AD00;
+    color: #fafafa;
+    padding: 5px;
+}
+#contact-form input[type=checkbox] {
+    margin-top: 48px;
+}
+#contact-form div > label {
+    margin-left: 5px;
+}
+#contact-form input[type=submit] {
+    border: 1px solid #D8AD00;
+    color: #fafafa;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+#display-results {
+    justify-content: center;
+    margin: 0 0 20px;
+}
+#display-results div {
+    flex-direction: column;
+}
+#display-results div>h2 {
+    margin-bottom: 20px;
+}
+#display-results div>a {
+    margin-top: 20px;
+}
+#display-results img {
+    margin-left: 40px;
+    max-height: 500px;
+}
+.back-to-top * {
+    color: #fff !important;
+}
+.back-to-top {
+    width: max-content;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 10px 16px;
+    background-color: #333 !important;
+    border: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    white-space: nowrap;
+}
+footer {
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer * {
+    color: #fafafa;
+}
+footer div {
+    padding: 10px 0;
+    justify-content: center;
+    color: #fafafa;
+}
+.footer-contact {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+footer i {
+    font-weight: 200;
+    color: #fafafa;
+}
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 10px;
+}
+footer hr {
+    height:1px; 
+    border:none; 
+    color:rgb(92, 92, 92); 
+    background-color:rgb(92, 92, 92);
+}
+#ingredients {
+    border-left: 2px solid #00d8c6;
+    margin: 10px 0;   
+}
+#ingredients div {
+    flex-direction: column;
+    padding: 10px 10px;
+}
+#ingredients ul {
+    padding: 10px 10px;
+    list-style: inside;
+}
+#instructions {
+    flex-direction: column;
+}
+#instructions section {
+    margin: 10px 0;
+    border-left: 2px solid #D8AD00;
+}
+#instructions section div {
+    flex-direction: column;
+    padding: 10px 10px;
+}
+#instructions section div p {
+    padding: 10px 10px;
+}
+input[class="cb"] {
+    display: none;
+}
+input[class=cb]:checked~label .strikethrough {
+    text-decoration: line-through;
+}
+input[class=cb]:checked~label.strikethrough {
+    text-decoration: line-through;
+}
+/* Large Screen screen */
+@media only screen and (min-width: 1642px) {
+    #why-all section {
+        flex: 1 1 718px;
+    }
+    header.non-main h1 {
+        font-size: 66px;
+    }
+    header.non-main p {
+        font-size: 33px;
+    }
+    header.main h1 {
+        font-size: 98.5px;
+        position: relative;
+        top: -49.23px;
+    }
+    header.main p {
+        font-size: 41px;
+        position: relative;
+        top: -49.23px;
+    }
+}
+/* Smaller than laptop screen */
+@media only screen and (max-width: 1023px) {
+    header.non-main h1 {
+        font-size: 41px;
+    }
+    header.non-main p {
+        font-size: 21px;
+    }
+    header.main h1 {
+        font-size: 61.44px;
+        position: relative;
+        top: -31px;
+    }
+    header.main p {
+        font-size: 25.6px;
+        position: relative;
+        top: -31px;
+    }
+    .menus {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .tip span:after {
+        content: ' By tapping the ingredients or steps below you will mark them as done, making it easier to track your progress.';
+    }
+    #make-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+    #make-layout div {
+        flex-direction: column;
+    }
+    #make-layout > img {
+        min-width: 288px;
+    }
+}
+/* Smaller then tablet screen (768px) */
+@media only screen and (max-width: 767px) {
+    #home-quick-links li:nth-child(2n) {
+        display: none;
+    }
+    #gallery iframe {
+        max-width: 500px;
+        max-height: 333px;
+    }
+}
+/* Screen size where max-width is less then 701px */
+@media only screen and (max-width: 700px) {
+    #why-all section, #why-all section:nth-of-type(2n) {
+        flex-direction: column;
+        max-width: 500px;
+    }
+    #why-all img {
+        height: 100%;
+        object-fit: none;
+    }
+    header.non-main h1 {
+        font-size: 6vw;
+    }
+    header.non-main p {
+        font-size: 3vw;
+    }
+    header.main h1 {
+        font-size: 9vw; 
+        top: -4vw;
+        -webkit-text-stroke-width: 1px;
+    }
+    header.main p {
+        top: -4vw;
+        font-size: 20px; 
+    }
+    #display-results {
+        flex-direction: column;
+    }
+    #display-results img {
+        margin-top: 20px;
+        margin-left: 0;
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+/* Images in home sections are 500px wide. When screen is small enough change wrap style of home sections */
+@media only screen and (max-width: 555px) {
+    .sticky-menu {
+        display: none;
+    }
+    .collapsable-menu {
+        display: block;
+    }
+    #gallery iframe {
+        max-width: 280px;
+        max-height: 157.5px;
+    }
+    #gallery img {
+        max-width: 280px;
+    }
+}
+/* Mobile L */
+@media only screen and (max-width: 425px) {
+    header.non-main h1 {
+        font-size: 25.5px;
+    }
+    header.non-main p {
+        font-size: 13px;
+    }
+    header.main h1 {
+        font-size: 38.34px; 
+    }
+    header.main p {
+        font-size: 20px; 
+    }
+}
