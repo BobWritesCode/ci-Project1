@@ -7,7 +7,7 @@ As part of the initial planning stages I created wireframes using [Balsamiq](htt
 Throughout the production of creating the website on self-reflection and feedback from others I made design changes. Most of these changes were to accommodate a more aesthetically pleasing site, as well as making the site work better responsively.
 ***
 ## Homepage (index.html)
-![index.html Wireframe](assets/docs/wireframes/wf-index.webp)\ 
+![index.html Wireframe](assets/docs/wireframes/wf-index.webp)\
 [Homepage - index.html](https://bobwritescode.github.io/ci-Project1/index.html)
 
 The wireframe above is the original design for the homepage for PC, Tablet and mobile. It also showcases the original idea for the tablet and mobile menu.
@@ -36,7 +36,7 @@ Another change I made for PC to elimate unsused white space was to move the imag
 
 As before originally for PC it has the 60% width design which following feedback I changed to 90% screen width.
 
-![gallery.html Live site](assets/docs/wireframes/gallery.webp) 
+![gallery.html Live site](assets/docs/wireframes/gallery.webp)
 
 A change that I made for all devices was to move away from the proposed grid format and to a more fluid design.
 ***
@@ -44,3 +44,6 @@ A change that I made for all devices was to move away from the proposed grid for
 ![contact.html Wireframe](assets/docs/wireframes/wf-contact.webp)\
 [Contact Us - contact.html](https://bobwritescode.github.io/ci-Project1/contact.html)
 
+As before originally for PC it has the 60% width design which following feedback I changed to 90% screen width.
+
+Otherwise the final design is true to the initaly cocept wireframe design.
