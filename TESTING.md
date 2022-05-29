@@ -42,6 +42,9 @@ The CSS stylesheet passed with no errors found.
 ## Gallery (gallery.html)
 [Gallery - gallery.html](https://bobwritescode.github.io/ci-Project1/gallery.html)
 
+### W3C html validator
+- No errors or warnings to show.
+
 ### PC
 ![Lighthouse Score]()
 
