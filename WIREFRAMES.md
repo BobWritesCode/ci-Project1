@@ -2,11 +2,11 @@
 
 ## Introduction
 
-As part of the initial planning stages I created wireframes using [Balsamiq](https://balsamiq.com/). These allowed me to hit the ground running with a initial design plan.
+As part of the initial planning stages I created wireframes using [Balsamiq](https://balsamiq.com/). These allowed me to hit the ground running with an initial design plan.
 
 Throughout the production of creating the website on self-reflection and feedback from others I made design changes. Most of these changes were to accommodate a more aesthetically pleasing site, as well as making the site work better responsively.
 ***
-## Overall desgin changes
+## Overall design changes
 - Originally I planned for PC to have a 60% width page container. But after feedback that there was too much white space on the sides. I redesigned the site to be 90% width on all devices. 
 - This also meant I changed the width of the nav bar, header bar, and footer to be 100% width of the page.
 ***
