@@ -32,9 +32,9 @@ Why choose Popcorn? - [https://bobwritescode.github.io/ci-Project1](https://bobw
 ## **Objective**
 In this project I intent to create a website that provides some basic information on why people should choose popcorn and how to make popcorn.
 
-The main objective is to demonstrate competency in HTML and CSS.  There are some small sections with other languages such as JavaScipt but this is purely included to enhance the user experience.
+The main objective is to demonstrate competency in HTML and CSS.  There are some small sections with other languages such as JavaScript but this is purely included to enhance the user experience.
 
-The website is designed to be responsive between different devices and the use of the site to be intuative by any user.
+The website is designed to be responsive between different devices and the use of the site to be intuitive by any user.
 
 **The needs within this project are not genuine and are made purely for the purpose of completing my Code Institute project**
 ***
@@ -42,52 +42,52 @@ The website is designed to be responsive between different devices and the use o
 The goal of this website is to provide the end user basic information to why they should choose popcorn as a snack.  
 My goals for the site are to have:
 - a eye catching front page with short sentences to engage the user.
-- a receipe page to help users make their own popcorn.
-- a gallerry show casing popcorn aswell as a YouTube video.
+- a recipe page to help users make their own popcorn.
+- a gallery show casing popcorn as well as a YouTube video.
 - a contact form, where a user can submit information.
-- a uniform approach so all pages other then the homepage have a familar look and style.
+- a uniform approach so all pages other than the homepage have a familiar look and style.
 ***
 ## **UX &#8722; User Experience Design**
 ### **User Requirements**
 Some example user stories which will affect the design:
-- *"As a first time visitor, I want to know what this site is about. I may use a number of different devices (mobile/tablet etc.) to view the site. I would like to be able to navigate easily"*
+- *"As a first time visitor, I want to know what this site is about. I may use several different devices (mobile/tablet etc.) to view the site. I would like to be able to navigate easily"*
 - *"As a returning visitor, I want to be able to navigate to the page I want without getting lost"*
 - *"As a unexperienced popcorn maker, I want to be able to follow instructions to making popcorn and have a way so I don't get lost where I am in the process."*
 ***
 ## **Initial Concept**
 I hope to be able to deliver a website that does not overload the user with too many distractions (i.e. like out of place imagery, distracting backgrounds). The site needs to be easy to navigate for the user. 
-A key focus is to deliver a high level experience for mobile, tablet and PC users.
+A key focus is to deliver a high-level experience for mobile, tablet and PC users.
 
 ### **Wireframes**
 
-![Wireframe](assets/docs/wireframe.png)
+[Wireframes](WIREFRAMES.md) (Separate ReadMe)
 
 ### **Colour Scheme**
 ![Colour Palette](assets/docs/palette.webp)\
 A simple and refined colour scheme has been used.\
 The white provides a nice canvas and is slightly off white to be easier on the user's eyes and blend better with the other colours.\
-The yellow / gold is to symoblise happiness and is a strong bold colour to draw the eye of the user into the page.\
+The yellow / gold is to symbolise happiness and is a strong bold colour to draw the eye of the user into the page.\
 The dark grey colour provides a strong contract for text. It also works very well for the nav bar and footer to help frame the pages of the site.
 
 ### **Typography**
 I have used several Google fonts to provide the site some unique character.\
-The main site header uses Passion One. This was choosen as a clean easy to read font with a little bit of character. It also allowed me to add a strong outline to the wording.\
+The main site header uses Passion One. This was chosen as a clean easy to read font with a little bit of character. It also allowed me to add a strong outline to the wording.\
 The main heading of all other pages use Exo and are all uppercased. It's a nice clean, easy to read, modern font.\
 The bulk text of the website uses Signika Negative which is a clean, easy to read font at all sizes.\
 Passion One falls back on to cursive and other fonts fall back on sans-serif if there is an issue loading the Google font.
 
 ### **Imagery**
 Imagery is a very important feature of the website, as the website needs to appeal visually to engage users and represent the Why Choose Popcorn in a good light.\
-All images choosen were purposly choosen to make sure the popcorn theme carried through the whole site.
+All images chosen were purposely chosen to make sure the popcorn theme carried through the whole site.
 
 #### **Hero Image**
 ![Hero Image](assets/docs/hero-image.png)\
-The reason for picking the hero image was because of the vibrant imagery of popcorn in the centre of the picture. And the brighton but not overpowering colours in the rest of the image. 
-Becuase I didn't want to have tooo much white space, I used SVG as a background to repeate the word POPCORN.
+The reason for picking the hero image was because of the vibrant imagery of the word popcorn in the centre of the picture. And the bright but not overpowering colours in the rest of the image. 
+Because I didn't want to have too much white space, I used SVG as a background to repeat the word POPCORN.
 
 #### **Section images**
 ![Section Image](assets/docs/section-example.png)\
-These images were choosen to show enjoyment. They were all framed 16:9 to be uniformed and to work better together when scaling for different screen sizes.
+These images were chosen to show enjoyment. They were all framed 16:9 to be uniformed and to work better together when scaling for different screen sizes.
 
 ***
 ## **Features**
@@ -105,7 +105,7 @@ Interactive elements
 ![Mobile Menu](assets/docs/mobile-menu.png)
 - The Nav bar is sticky to the top of the page, so as you scroll down it stays at the top of the screen.
 - As you move the cursor over the choices there is animated line to highlight the option you are about to select.
-- On a smaller screen the bar becomes collapsable and by tapping/click on menu it opens the menu as fullscreen.
+- On a smaller screen the bar becomes collapsible and by tapping/clicking on ‘menu’ it opens the navigation in full screen.
 
 ![Mobile Menu](assets/docs/main-header.webp)
 - I have position the header text to slightly overlay the hero image, to try and provide a path to direct the user to scroll down.
@@ -139,10 +139,10 @@ Interactive elements
 
 ![White line between blocks](assets/docs/bug-line.webp)\
 **Bug:** A white line appeared between the hero image and the block for the header.\
-**Solution:** Incase the header and hero image in a div and add *style="font-size: 0;"* as an attribute to the div.
+**Solution:** In case the header and hero image in a div and add *style="font-size: 0;"* as an attribute to the div.
 
 ![White line between blocks](assets/docs/bug-overlay.webp)\
-**Bug:** Other elements apeparing on top of collasible menu.\
+**Bug:** Other elements appearing on top of collapsible menu.\
 **Solution:** Add *z-index:99;* to .menus class to make sure menus are always on top.
 
 ***
@@ -154,7 +154,7 @@ The project was deployed to GitHub Pages using these steps:
 
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
 2. Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
-3. Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
+3. Locate the Navbar on the left-hand side of the page. Click the "Pages" section (under 'Code and automation').
 4. Under "Source", click the dropdown called "None" and select "main". Click save.
 5. The page will automatically refresh.
 6. A notification will appear at the top of the page with the [link](https://bobwritescode.github.io/ci-Project1/) to the deployed site. You can return to this GitHub Pages section to access the link.
@@ -163,7 +163,7 @@ The project was deployed to GitHub Pages using these steps:
 
 Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
-To Fork a Github Repository:
+To Fork a GitHub Repository:
 
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
 2. Locate the Fork button in the top-right corner of the page, click Fork.
@@ -176,7 +176,7 @@ You will now have a fork of the repository, but you don't have the files in that
 To make a local clone:
 
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/BobWritesCode/ci-Project1)
-2. Above the list of files, click  Code.
+2. Above the list of files, click 'Code'.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory.
@@ -212,5 +212,7 @@ I have modified this code as the original has the line come from bottom left and
 ### Images
 
 - [Pexels](https://www.pexels.com/)
-- [Image optimising](http://www.imageoptimizer.net/Home.aspx)
-- [yousafbhutta](https://pixabay.com/users/yousafbhutta-2933897/)
+
+### Miscellaneous
+
+- [EZGIF](https://ezgif.com/) for Image optimisation

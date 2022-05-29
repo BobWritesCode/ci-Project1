@@ -34,6 +34,7 @@ Throughout the production of creating the website on self-reflection and feedbac
 ***
 ## 404 (404.html)
 [404 - 404.html](https://bobwritescode.github.io/ci-Project1/404.html)\
-![404.html Wireframe](assets/docs/wireframes/wf-404.webp)
+![404.html Wireframe](assets/docs/wireframes/wf-404.webp)\
+![404.html Live site](assets/docs/wireframes/404.webp)
 - Moved the 404 to the main heading of the page.
 - Added an image on to the page.
