@@ -7,6 +7,11 @@ To make sure my site is running as expected I will be using different tools to m
 ## Homepage (index.html)
 [Homepage - index.html](https://bobwritescode.github.io/ci-Project1/index.html)\
 
+### PC
+
+### Mobile
+![Lighthouse Score](assets/docs/testing/home-mobile.webp)
+
 ***
 ## How To Make Popcorn (make.html)
 [How To Make Popcorn - make.html](https://bobwritescode.github.io/ci-Project1/make.html)\
