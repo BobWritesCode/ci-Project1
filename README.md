@@ -164,6 +164,10 @@ There are currently no bugs I am aware of.
 **Bug:** Other elements appearing on top of collapsible menu.\
 **Solution:** Add *z-index:99;* to .menus class to make sure menus are always on top.
 
+![Quick link example](assets/docs/bug-quick-link.webp)\
+**Bug:** Due to the sticky nav bar, the quick links would scroll the page to the correct section but 50px would be cut off the top of the image.\
+**Solution:** By making the span element a block, and positioning it relativly -50px (height of the nav bar) up, this countered the nav bar cutting the image.
+
 ***
 ## Deployment
 
