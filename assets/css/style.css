@@ -95,26 +95,26 @@ div, section, form {
     }
 
 /* Collapsible nav styling */
-.collapsable-menu {
+.collapsible-menu {
     display: none;
     }
 
-.collapsable-menu div {
+.collapsible-menu div {
     justify-content: center;
     }
 
-.collapsable-menu label {
+.collapsible-menu label {
     display: block;
     padding: 16px 0;
     }
 
-.collapsable-menu ul {
+.collapsible-menu ul {
     list-style-type: none;
     padding: 0;
     width: 90%;
     }
 
-.collapsable-menu li {
+.collapsible-menu li {
     padding: 14px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     }
@@ -719,7 +719,7 @@ footer hr {
         display: none;
         }
 
-    .collapsable-menu {
+    .collapsible-menu {
         display: block;
         }
 
