@@ -62,6 +62,16 @@ The CSS stylesheet passed with no errors found.
 ![Lighthouse Score](assets/docs/testing/contact-mobile.webp)
 
 ***
+## Display feedback (display.html)
+[Display feedback - display.html](https://bobwritescode.github.io/ci-Project1/display.html)
+
+### PC
+![Lighthouse Score](assets/docs/testing/display-pc.webp)
+
+### Mobile
+![Lighthouse Score](assets/docs/testing/display-mobile.webp)
+
+***
 ## 404 (404.html)
 [404 - 404.html](https://bobwritescode.github.io/ci-Project1/404.html)
 
