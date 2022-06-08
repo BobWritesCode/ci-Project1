@@ -70,4 +70,4 @@ The CSS stylesheet passed with no errors found.
 ![Lighthouse Score](assets/docs/testing/404-pc.webp)
 
 ### Mobile
-![Lighthouse Score](assets/docs/testing/404-mobile.web)
+![Lighthouse Score](assets/docs/testing/404-mobile.webp)
