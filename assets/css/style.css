@@ -222,35 +222,6 @@ header.non-main p {
     text-align: center;
     }
 
-/* Quick links on index.html */
-.quick-link-scroll {
-    display: block;
-    position: relative;
-    top: -50px;
-    }
-
-#home-quick-links {
-    margin: 20px 0;
-    list-style-type: none;
-    display:flex;
-    justify-content: space-around; 
-    }
-
-#home-quick-links li {
-    width: 100%;
-    text-align: center;
-    }
-
-#home-quick-links a {
-    margin: 20px 0 0;
-    width: 6vw;
-    max-width: 100px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
-    text-decoration: none;
-    }
-
 /* Sections on index.html */
 #why-all {
     flex-wrap: wrap;
@@ -318,6 +289,36 @@ header.non-main p {
     color: #a35900;
     border-color: #a35900;
     }
+
+/* Quick links on index.html */
+#home-quick-links {
+    margin: 20px 0;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around; 
+    }
+
+#home-quick-links li {
+    width: 100%;
+    text-align: center;
+    }
+
+#home-quick-links a {
+    margin: 20px 0 0;
+    width: 6vw;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-decoration: none;
+    }
+
+.quick-link-scroll {
+    display: block;
+    position: relative;
+    top: -50px;
+    left: 100%;
+    } 
 
 /* make.html */
 #make-layout {
