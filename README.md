@@ -60,6 +60,7 @@ Some example user stories which will affect the design:
 - *"As a first time visitor, I want to know what this site is about. I may use several different devices (mobile/tablet etc.) to view the site. I would like to be able to navigate easily"*
 - *"As a returning visitor, I want to be able to navigate to the page I want without getting lost"*
 - *"As a unexperienced popcorn maker, I want to be able to follow instructions to making popcorn and have a way so I don't get lost where I am in the process."*
+- *"As a general popcorn fan, I want to be able to get in contact and provide feedback."*
 
 ***
 ## Initial Concept
