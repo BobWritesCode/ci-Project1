@@ -64,6 +64,9 @@ The CSS stylesheet passed with no errors found.
 ## Contact Us (contact.html)
 [Contact Us - contact.html](https://bobwritescode.github.io/ci-Project1/contact.html)
 
+### W3C html validator
+- No errors or warnings to show.
+
 ### PC
 ![Lighthouse Score](assets/docs/testing/contact-pc.webp)
 
@@ -77,6 +80,9 @@ The CSS stylesheet passed with no errors found.
 ## Display feedback (display.html)
 [Display feedback - display.html](https://bobwritescode.github.io/ci-Project1/display.html)
 
+### W3C html validator
+- No errors or warnings to show.
+
 ### PC
 ![Lighthouse Score](assets/docs/testing/display-pc.webp)
 
@@ -89,6 +95,9 @@ The CSS stylesheet passed with no errors found.
 ***
 ## 404 (404.html)
 [404 - 404.html](https://bobwritescode.github.io/ci-Project1/404.html)
+
+### W3C html validator
+- No errors or warnings to show.
 
 ### PC
 ![Lighthouse Score](assets/docs/testing/404-pc.webp)
