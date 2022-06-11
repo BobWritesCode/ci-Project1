@@ -221,7 +221,7 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 ## Credits
 
 ### Code
-- [Animated hove line](https://www.30secondsofcode.org/css/s/hover-underline-animation)\
+- [Animated hover line](https://www.30secondsofcode.org/css/s/hover-underline-animation)\
 ![Animated line](assets/docs/animated-line.gif)\
 ![Animated line](assets/docs/animated-line-2.gif)\
 I have modified this code as the original has the line come from bottom left and go of to bottom right. I preferred the line to go back to the bottom left, as this looked better when going between the different links in the nav bar.
