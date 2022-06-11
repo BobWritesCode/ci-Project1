@@ -31,7 +31,6 @@ Why choose Popcorn? - [https://bobwritescode.github.io/ci-Project1](https://bobw
     - [Code](#Content)
     - [Media](#Media)
     - [Miscellaneous](#Miscellaneous)
-- [Personal Development](#Personal-Development)
 
 ***
 ## Objective
@@ -226,6 +225,7 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 ![Animated line](assets/docs/animated-line-2.gif) \
 https://www.30secondsofcode.org/css/s/hover-underline-animation \
 I have modified this code as the original has the line come from bottom left and go of to bottom right. I preferred the line to go back to the bottom left, as this looked better when going between the different links in the nav bar.
+![Passing data from contact form to display page](https://stackoverflow.com/a/51123522/19105485)
 
 ### Media
 - [Pexels](https://www.pexels.com/)
