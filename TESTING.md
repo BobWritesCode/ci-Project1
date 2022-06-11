@@ -28,6 +28,9 @@ The CSS stylesheet passed with no errors found.
 ### Mobile
 ![Lighthouse Score](assets/docs/testing/home-mobile.webp)
 
+### WCAG Colour contrast checker
+![WCAG contract checker](assets/docs/testing/home-contrast.webp)
+
 ***
 ## How To Make Popcorn (make.html)
 [How To Make Popcorn - make.html](https://bobwritescode.github.io/ci-Project1/make.html)
@@ -38,6 +41,9 @@ The CSS stylesheet passed with no errors found.
 ### Mobile
 ![Lighthouse Score](assets/docs/testing/make-mobile.webp)
 
+### WCAG Colour contrast checker
+![WCAG contract checker](assets/docs/testing/make-contrast.webp)
+
 ***
 ## Gallery (gallery.html)
 [Gallery - gallery.html](https://bobwritescode.github.io/ci-Project1/gallery.html)
@@ -46,10 +52,13 @@ The CSS stylesheet passed with no errors found.
 - No errors or warnings to show.
 
 ### PC
-![Lighthouse Score]()
+![Lighthouse Score](assets/docs/testing/gallery-pc.webp)
 
 ### Mobile
-![Lighthouse Score]()
+![Lighthouse Score](assets/docs/testing/gallery-mobile.webp)
+
+### WCAG Colour contrast checker
+![WCAG contract checker](assets/docs/testing/gallery-contrast.webp)
 
 ***
 ## Contact Us (contact.html)
@@ -61,6 +70,9 @@ The CSS stylesheet passed with no errors found.
 ### Mobile
 ![Lighthouse Score](assets/docs/testing/contact-mobile.webp)
 
+### WCAG Colour contrast checker
+![WCAG contract checker](assets/docs/testing/contact-contrast.webp)
+
 ***
 ## Display feedback (display.html)
 [Display feedback - display.html](https://bobwritescode.github.io/ci-Project1/display.html)
@@ -71,13 +83,18 @@ The CSS stylesheet passed with no errors found.
 ### Mobile
 ![Lighthouse Score](assets/docs/testing/display-mobile.webp)
 
+### WCAG Colour contrast checker
+![WCAG contract checker](assets/docs/testing/display-contrast.webp)
+
 ***
 ## 404 (404.html)
 [404 - 404.html](https://bobwritescode.github.io/ci-Project1/404.html)
-
 
 ### PC
 ![Lighthouse Score](assets/docs/testing/404-pc.webp)
 
 ### Mobile
 ![Lighthouse Score](assets/docs/testing/404-mobile.webp)
+
+### WCAG Colour contrast checker
+![WCAG contract checker](assets/docs/testing/404-contrast.webp)
