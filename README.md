@@ -234,3 +234,4 @@ I have modified this code as the original has the line come from bottom left and
 - [Code Institue](https://codeinstitute.net/) for helping me learn HTML and CSS.
 - [EZGIF](https://ezgif.com/) for Image optimisation
 - [favicon.ico](https://www.favicon.cc/?action=icon&file_id=935524)
+- [WCAG Contrast score chrome extension](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en)
