@@ -462,18 +462,6 @@ header.non-main p {
     padding: 5px 0;
     }
 
-input[class="cb"] {
-    display: none;
-    }
-
-input[class=cb]:checked~label .strikethrough {
-    text-decoration: line-through;
-    }
-
-input[class=cb]:checked~label.strikethrough {
-    text-decoration: line-through;
-    }
-
 /* display.html */
 #display-results {
     justify-content: center;
