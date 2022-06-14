@@ -76,13 +76,13 @@
                 </section>
                 <div id="instructions">
                     <section>
-                        <input name="cb" type="checkbox" id="cb" class="cb">
-                        <label for="cb">
-                            <div for="cb">
-                                <h2 class="strikethrough">Step 1</h2>
-                                <p class="strikethrough">Heat the oil in a 3-quart saucepan on medium high heat. If you are using coconut oil, allow all of the solid oil to melt.</p>
+                        <!-- <input name="cb" type="checkbox" id="cb" class="cb">
+                        <label for="cb"> -->
+                            <div>
+                                <h2 onclick="stk(this.id)" class="step1">Step 1</h2>
+                                <p>Heat the oil in a 3-quart saucepan on medium high heat. If you are using coconut oil, allow all of the solid oil to melt.</p>
                             </div>
-                        </label>
+                        <!-- </label> -->
                     </section>
                     <section>
                         <input name="cb2" type="checkbox" id="cb2" class="cb">
@@ -129,6 +129,12 @@
                             </div>
                         </label>
                     </section>
+                    <section>
+                        <div>
+                            <h2 onclick="stk(this.id)" id="bob">Name is Bob</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia vitae architecto aperiam. Inventore, facilis ipsum laudantium voluptatem beatae repudiandae! Maxime adipisci magni voluptatem est qui assumenda eum? Optio, quibusdam laboriosam.</p>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -157,6 +163,19 @@
             Copyright © 2022 Why Choose Popcorn
         </div>
     </footer>
+    <script>
+        function stk(element_id){
+            let element=document.getElementById(element_id);
+
+            if (element.style.textDecoration=="line-through") {
+                element.style.textDecoration="";
+            } else {
+                element.style.textDecoration="line-through"
+            }
+            
+        }
+        
+    </script>
     <script src="https://kit.fontawesome.com/3f3c2144d6.js" crossorigin="anonymous"></script>
 </body>
 </html>
