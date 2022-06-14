@@ -55,21 +55,17 @@
                     <div>
                         <h2>Ingredients</h2>
                         <ul>
-                            <li>
-                                <input name="icb1" type="checkbox" id="icb1" class="cb">
-                                <label for="icb1" class="strikethrough">3 Tbsp Coconut Oil</label>
+                            <li onclick="stk_ingredient(this.id)" id="ingredient_1">
+                                3 Tbsp Coconut Oil
                             </li>
-                            <li>
-                                <input name="icb2" type="checkbox" id="icb2" class="cb">
-                                <label for="icb2" class="strikethrough">1/3 Cup of high-quality popcorn kernels</label>
+                            <li onclick="stk_ingredient(this.id)" id="ingredient_2">
+                                1/3 Cup of high-quality popcorn kernels
                             </li>
-                            <li>
-                                <input name="icb3" type="checkbox" id="icb3" class="cb">
-                                <label for="icb3" class="strikethrough">1 Tbsp of butter</label>
+                            <li onclick="stk_ingredient(this.id)" id="ingredient_3">
+                                1 Tbsp of butter
                             </li>
-                            <li>
-                                <input name="icb4" type="checkbox" id="icb4" class="cb">
-                                <label for="icb4" class="strikethrough">Salt to taste</label>
+                            <li onclick="stk_ingredient(this.id)" id="ingredient_4">
+                                Salt to taste
                             </li>
                         </ul>
                     </div>
@@ -153,6 +149,15 @@
             }
         }
         
+        function stk_ingredient(element_id){
+            let element=document.getElementById(element_id);
+
+            if (element.style.textDecoration=="line-through") {
+                element.style.textDecoration="";
+            } else {
+                element.style.textDecoration="line-through"
+            }
+        }
     </script>
     <script src="https://kit.fontawesome.com/3f3c2144d6.js" crossorigin="anonymous"></script>
 </body>
