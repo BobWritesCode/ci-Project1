@@ -389,11 +389,13 @@ header.non-main p {
 
 #gallery iframe {
     margin: 5px;
-    width: 592px;
-    height: 333px;
+    width: 90%;
+    max-width: 900px;
+    height: 100%;
+    aspect-ratio: 16/9;
     }
 
-#gallery div {
+#gallery div:first-child {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -642,14 +644,6 @@ footer hr {
     #home-quick-links li:nth-child(2n) {
         display: none;
         }
-
-    /* gallery.html */
-    #gallery iframe {
-        border: none;
-        max-width: 500px;
-        max-height: 333px;
-        }
-
     }
 
 /* Screen size where max-width is less then 701px */
@@ -713,11 +707,6 @@ footer hr {
         }
 
     /* gallery.html */
-    #gallery iframe {
-        max-width: 280px;
-        max-height: 157.5px;
-        }
-
     #gallery img {
         max-width: 280px;
         }
