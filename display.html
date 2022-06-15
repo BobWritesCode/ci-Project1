@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,95 +8,95 @@
     <meta name="keywords" content="Popcorn, Snack, Health eating">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Thank you - Why Choose Popcorn?</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Sticky Nav bar-->
     <div class="fix-nav">
-        <div>
-            <nav class="sticky-menu menus menu-font">
-                <ul>
-                    <li class="animation-line-sticky"><a href="index.html">Home</a></li>
-                    <li class="animation-line-sticky"><a href="make.html">Make</a></li>
-                    <li class="animation-line-sticky"><a href="gallery.html">Gallery</a></li>
-                    <li class="animation-line-sticky"><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div>
+        <nav class="sticky-menu menus menu-font">
+          <ul>
+            <li class="animation-line-sticky"><a href="index.html">Home</a></li>
+            <li class="animation-line-sticky"><a href="make.html">Make</a></li>
+            <li class="animation-line-sticky"><a href="gallery.html">Gallery</a></li>
+            <li class="animation-line-sticky"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <!-- Collapsible Nav bar -->
     <div class="fix-nav">
-        <div>
-            <nav class="collapsible-menu menus menu-font">
-                <input type="checkbox" id="menu">
-                <label for="menu">Menu</label>
-                <div class="menu-content">
-                    <ul>
-                        <li class="animation-line-collapsible"><a href="index.html">Home</a></li>
-                        <li class="animation-line-collapsible"><a href="make.html">Make</a></li>
-                        <li class="animation-line-collapsible"><a href="gallery.html">Gallery</a></li>
-                        <li class="animation-line-collapsible"><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+      <div>
+        <nav class="collapsible-menu menus menu-font">
+          <input type="checkbox" id="menu">
+          <label for="menu">Menu</label>
+          <div class="menu-content">
+            <ul>
+              <li class="animation-line-collapsible"><a href="index.html">Home</a></li>
+              <li class="animation-line-collapsible"><a href="make.html">Make</a></li>
+              <li class="animation-line-collapsible"><a href="gallery.html">Gallery</a></li>
+              <li class="animation-line-collapsible"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
     <div class="page-container">
-        <header style="margin:65px 0 2vw;" class="non-main">
-            <h1>Thank you</h1>
-            <p>We appreciate you using our form, your data has not gone anywhere. No one will see it except you or the person reading over your shoulder, or maybe one of the many central intelligence services around the world.</p>
-        </header>
-        <div id="display-results">
-            <div>
-                <h2>
-                    Here is the data you entered though:
-                </h2>
-                <!-- Code credit for passing data from contact form to display page: https://stackoverflow.com/a/51123522/19105485 -->
-                <script>
-                    function getParams(){
-                        var idx = document.URL.indexOf('?');
-                        var params = new Array();
-                        if (idx != -1) {
-                            var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
-                            for (var i=0; i<pairs.length; i++){
-                                nameVal = pairs[i].split('=');
-                                params[nameVal[0]] = nameVal[1];
-                            }
-                        }
-                        return params;
-                    }
-                    params = getParams();
-                    name = unescape(params["name"]);
-                    email = unescape(params["email"]);
-                    feedback = unescape(params["feedback"]);
-                    document.write("Name: " + name + "<br>");
-                    document.write("E-mail: " + email + "<br>");
-                    document.write("Feedback: " + feedback + "<br>");
-                </script>
-                <a href="index.html" class="animation-line-white-bg">Now let's get you home by <strong>clicking here.</strong></a>
-            </div>
-            <img src="assets/images/popcorn-throw.webp" alt="A lady throwing a handful of popcorn in the air at a fairground.">
+      <header style="margin:65px 0 2vw;" class="non-main">
+        <h1>Thank you</h1>
+        <p>We appreciate you using our form, your data has not gone anywhere. No one will see it except you or the person reading over your shoulder, or maybe one of the many central intelligence services around the world.</p>
+      </header>
+      <div id="display-results">
+        <div>
+          <h2>
+            Here is the data you entered though:
+          </h2>
+          <!-- Code credit for passing data from contact form to display page: https://stackoverflow.com/a/51123522/19105485 -->
+          <script>
+            function getParams(){
+              var idx = document.URL.indexOf('?');
+              var params = new Array();
+              if (idx != -1) {
+                var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+                for (var i=0; i<pairs.length; i++){
+                  nameVal = pairs[i].split('=');
+                  params[nameVal[0]] = nameVal[1];
+                }
+              }
+              return params;
+            }
+            params = getParams();
+            name = unescape(params["name"]);
+            email = unescape(params["email"]);
+            feedback = unescape(params["feedback"]);
+            document.write("Name: " + name + "<br>");
+            document.write("E-mail: " + email + "<br>");
+            document.write("Feedback: " + feedback + "<br>");
+          </script>
+          <a href="index.html" class="animation-line-white-bg">Now let's get you home by <strong>clicking here.</strong></a>
         </div>
+        <img src="assets/images/popcorn-throw.webp" alt="A lady throwing a handful of popcorn in the air at a fairground.">
+      </div>
     </div>
     <div class="back-to-top">
-        <a href="#top" class="dark-bg-text animation-line-sticky">Jump to top of page <i class="fa-solid fa-angle-up"></i></a>
+      <a href="#top" class="dark-bg-text animation-line-sticky">Jump to top of page <i class="fa-solid fa-angle-up"></i></a>
     </div>
     <footer>
-        <div class="footer-contact">
-            <p><strong>Why Choose Popcorn</strong></p>
-            <address>
-                Kernal Lane, Poptown, PO9 C00<br>
-                <a class="animation-line-sticky" href="mailto:donotemail@whychoosepopcorn.com">DoNotEmail@WhyChoosePopcorn.com</a>
-            </address>
-        </div>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/warwickhart/" target="_blank" rel="noopener noreferrer" aria-label="Link to Warwick Hart's LinkedIn profile (opens in new tab)" class="dark-bg-text animation-line-sticky">Connect with me on LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/BobWritesCode" target="_blank" rel="noopener noreferrer" aria-label="Link to Warwick Hart's GitHub profile (opens in new tab)" class="dark-bg-text animation-line-sticky">See all my projects at GitHub <i class="fa-brands fa-github"></i></a></li>
-        </ul>
-        <hr>
-        <div>
-            Copyright © 2022 Why Choose Popcorn
-        </div>
+      <div class="footer-contact">
+        <p><strong>Why Choose Popcorn</strong></p>
+        <address>
+          Kernal Lane, Poptown, PO9 C00<br>
+          <a class="animation-line-sticky" href="mailto:donotemail@whychoosepopcorn.com">DoNotEmail@WhyChoosePopcorn.com</a>
+        </address>
+      </div>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/warwickhart/" target="_blank" rel="noopener noreferrer" aria-label="Link to Warwick Hart's LinkedIn profile (opens in new tab)" class="dark-bg-text animation-line-sticky">Connect with me on LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/BobWritesCode" target="_blank" rel="noopener noreferrer" aria-label="Link to Warwick Hart's GitHub profile (opens in new tab)" class="dark-bg-text animation-line-sticky">See all my projects at GitHub <i class="fa-brands fa-github"></i></a></li>
+      </ul>
+      <hr>
+      <div>
+        Copyright © 2022 Why Choose Popcorn
+      </div>
     </footer>
     <script src="https://kit.fontawesome.com/3f3c2144d6.js" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
