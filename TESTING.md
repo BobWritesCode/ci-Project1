@@ -11,11 +11,11 @@ To make sure my site is running as expected I will be using different tools to m
 ***
 ## Browser testing
 
-- Chrome - This is the site I have done the most extensive testing on as it has been the site, I have used primarily to build the website, and perform the extensive testing detailed below.
-- Firefox - 1 error was identified on the contact form. The Text area box had too many rows and caused it to overflow. I set the text area to 2 rows and the problem was solved.
-- Microsoft Edge - No errors identified.
-- Opera - No errors identified.
-- Android (Mobile) - No errors identified.
+- **Chrome** - This is the site I have done the most extensive testing on as it has been the site, I have used primarily to build the website, and perform the extensive testing detailed below.
+- **Firefox** - 1 error was identified on the contact form. The text area box had too many rows and caused it to overflow. I set the text area to 2 rows and the problem was solved.
+- **Microsoft Edge** - No errors identified.
+- **Opera** - No errors identified.
+- **Android (Mobile)** - No errors identified.
 
 ***
 ## CSS Stylesheet
