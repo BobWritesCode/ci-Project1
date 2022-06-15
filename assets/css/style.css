@@ -425,7 +425,7 @@ header.non-main p {
     color: #fafafa;
     background-color: rgba(20, 20, 20, .95);
     padding: 20px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 5%;
     border-radius: 20px;
     border: 1px solid #D8AD00;
     max-height: 450px;
