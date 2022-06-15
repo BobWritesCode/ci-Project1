@@ -26,11 +26,13 @@ Throughout the production of creating the website on self-reflection and feedbac
 ![gallery.html Wireframe](assets/docs/wireframes/wf-gallery.webp)\
 ![gallery.html Live site](assets/docs/wireframes/gallery.webp)
 - A change made for all devices was to move away from the proposed grid format and to a more fluid design using flex.
+- I also added a charcoal background color for the images.
 ***
 ## Contact Us (contact.html)
 [Contact Us - contact.html](https://bobwritescode.github.io/ci-Project1/contact.html)\
 ![contact.html Wireframe](assets/docs/wireframes/wf-contact.webp)
-- The final design is true to the initial concept wireframe design.
+![contact.html Live site](assets/docs/wireframes/contact.webp)
+- One change I made on this page was to streach the background image the whole page width.
 ***
 ## 404 (404.html)
 [404 - 404.html](https://bobwritescode.github.io/ci-Project1/404.html)\
