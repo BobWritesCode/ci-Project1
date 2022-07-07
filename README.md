@@ -141,7 +141,9 @@ Interactive elements
 ### Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [JavaScript](https://www.javascript.com/) - Used to process the data submitted on the contact form to show on the next page.
+- [JavaScript](https://www.javascript.com/) 
+  - Used to process the data submitted on the contact form to show on the next page.
+  - Also used to create the strikethroughs when click on the ingredients and steps on make.html
 
 ***
 ## Testing
